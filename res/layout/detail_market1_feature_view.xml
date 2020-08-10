@@ -8,7 +8,7 @@
     android:paddingRight="30dp">
 
     <TextView
-        android:id="@+id/market1_feature"
+        android:id="@+id/market_feature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left|center_vertical"
