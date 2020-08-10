@@ -27,7 +27,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <ImageView
-        android:id="@+id/store_image"
+        android:id="@+id/food_image"
         android:layout_width="360dp"
         android:layout_height="240dp"
         android:layout_gravity="center"
@@ -40,7 +40,7 @@
         android:background="#4E4E4E" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view"
+        android:id="@+id/food_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp" />
