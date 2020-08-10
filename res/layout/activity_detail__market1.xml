@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Detail_Market1">
+    tools:context=".Detail_Market">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -27,7 +27,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <ImageView
-        android:id="@+id/market1_image"
+        android:id="@+id/market_image"
         android:layout_width="360dp"
         android:layout_height="240dp"
         android:layout_gravity="center"
@@ -40,7 +40,7 @@
         android:background="#4E4E4E" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/market1_recycler_view"
+        android:id="@+id/market_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp" />
