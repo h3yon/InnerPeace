@@ -31,8 +31,8 @@ class Detail_Food1 : AppCompatActivity() {
 
 
         val adapter = Adapter(featureList, LayoutInflater.from(this@Detail_Food1))
-        recycler_view.adapter = adapter
-        recycler_view.layoutManager = LinearLayoutManager(this@Detail_Food1)
+        food_recycler_view.adapter = adapter
+        food_recycler_view.layoutManager = LinearLayoutManager(this@Detail_Food1)
     }
 }
 
@@ -49,7 +49,7 @@ class Adapter(
         val featureText: TextView
 
         init {
-            featureText = featureView.findViewById(R.id.feature)
+            featureText = featureView.findViewById(R.id.food_feature)
         }
     }
 
