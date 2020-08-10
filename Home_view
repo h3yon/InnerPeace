@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:theme="@style/ToolbarTheme"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleMarginStart="40dp">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="InnerPeace"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <fragment
+            android:id="@+id/map_fragment"
+            android:layout_height="300dp"
+            android:layout_width="match_parent"
+            android:name="com.naver.maps.map.MapFragment"
+            android:layout_below="@+id/my_toolbar"/>
+
+<!--            android:layout_below="@+id/my_toolbar"/>-->
+
+    <Button
+        android:background="@drawable/button_resource"
+        android:id="@+id/allToilet"
+        android:layout_below="@+id/map_fragment"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:text="전체"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:background="@drawable/button_resource"
+        android:id="@+id/cafeToilet"
+        android:layout_below="@+id/allToilet"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:text="카페"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:background="@drawable/button_resource"
+        android:id="@+id/restaurantToilet"
+        android:layout_below="@+id/allToilet"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/cafeToilet"
+        android:layout_width="80dp"
+        android:text="음식점"
+        android:textSize="20dp" />
+
+    <Button
+        android:background="@drawable/button_resource"
+        android:id="@+id/BarToilet"
+        android:layout_below="@+id/allToilet"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/restaurantToilet"
+        android:layout_width="80dp"
+        android:text="주점"
+        android:textSize="20dp" />
+
+    <Button
+        android:background="@drawable/button_resource"
+        android:id="@+id/metroToilet"
+        android:layout_below="@+id/map_fragment"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/allToilet"
+        android:layout_width="80dp"
+        android:text="지하철"
+        android:textSize="20dp" />
+
+    <Button
+        android:background="@drawable/button_resource"
+        android:id="@+id/MarketToilet"
+        android:layout_below="@+id/map_fragment"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/metroToilet"
+        android:layout_width="80dp"
+        android:text="대형마트"
+        android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
