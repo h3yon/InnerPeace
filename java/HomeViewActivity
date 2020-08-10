@@ -9,7 +9,7 @@ class HomeViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
 
-        setContentView(R.layout.home_view)
+        setContentView(R.layout.activity_home_view)
 //        setSupportActionBar(findViewById(R.id.my_toolbar))
 //
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
