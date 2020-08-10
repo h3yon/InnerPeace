@@ -24,6 +24,13 @@
             </intent-filter>
         </activity>
         
+         <activity android:name=".Detail_Food1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GPS_view"></activity>
         
         <activity android:name=".MainActivity" />
     
