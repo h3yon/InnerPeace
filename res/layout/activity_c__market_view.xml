@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".D_Food_view"
+    tools:context=".D_Market_view"
     >
 
     <androidx.appcompat.widget.Toolbar
