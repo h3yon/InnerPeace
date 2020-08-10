@@ -54,7 +54,7 @@ class Adapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = inflater.inflate(R.layout.detail_food1_feature_view, parent, false)
+        val view = inflater.inflate(R.layout.detail_food1_feature_item_view, parent, false)
         return ViewHolder(view)
     }
 
