@@ -8,7 +8,7 @@ import android.view.MenuItem
 class Toolbar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_Toolbar)
+        setContentView(R.layout.activity_toolbar)
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
