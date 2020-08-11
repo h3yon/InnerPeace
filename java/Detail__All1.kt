@@ -30,9 +30,9 @@ class Detail_Beer1 : AppCompatActivity() {
         featureList.add(FeatureForList("위생용품 자판기 : X"))
 
 
-        val adapter = Adapter(featureList, LayoutInflater.from(this@Detail_Beer1))
+        val adapter = Adapter(featureList, LayoutInflater.from(this@Detail_All1))
         all_recycler_view.adapter = adapter
-        all_recycler_view.layoutManager = LinearLayoutManager(this@Detail_Beer1)
+        all_recycler_view.layoutManager = LinearLayoutManager(this@Detail_All1)
     }
 }
 
