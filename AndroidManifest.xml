@@ -94,7 +94,10 @@
             </intent-filter>
         </activity>
         
-        
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+        <activity android:name=".Login_view" />
         
         
         <activity android:name=".GPS_view"></activity>
