@@ -103,6 +103,10 @@
         <activity android:name=".GPS_view"></activity>
         
         <activity android:name=".MainActivity" />
+        
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="iqnigx1xkk" />
     
     
     
