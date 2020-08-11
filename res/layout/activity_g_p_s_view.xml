@@ -88,13 +88,16 @@
             android:src="@drawable/ic_gps_fixed_black_24dp" />
     </LinearLayout>
 
-    <LinearLayout
+    <fragment
+        android:id="@+id/map_fragment"
+        android:name="com.naver.maps.map.MapFragment"
         android:layout_width="match_parent"
         android:layout_height="350dp"
-        android:layout_marginTop="25dp"
-        android:background="#A6A6A6" />
+        android:layout_marginTop="25dp" />
+
 
     <Button
+        android:id="@+id/complete_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
