@@ -3,6 +3,7 @@ package com.project.innerpeace
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.*
+import com.project.innerpeace.R
 
 class HomeViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,8 +11,8 @@ class HomeViewActivity : AppCompatActivity() {
 
 
         setContentView(R.layout.activity_home_view)
-//        setSupportActionBar(findViewById(R.id.my_toolbar))
-//
+        setSupportActionBar(findViewById(R.id.my_toolbar))
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
