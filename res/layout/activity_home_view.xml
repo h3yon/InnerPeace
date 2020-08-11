@@ -39,9 +39,7 @@
             android:layout_width="match_parent"
             android:name="com.naver.maps.map.MapFragment"
             android:layout_below="@+id/my_toolbar"/>
-
-<!--            android:layout_below="@+id/my_toolbar"/>-->
-
+        
     <Button
         android:background="@drawable/button_resource"
         android:id="@+id/allToilet"
