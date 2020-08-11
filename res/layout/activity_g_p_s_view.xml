@@ -33,7 +33,7 @@
         android:gravity="center"
         android:text="역 이름을 입력해주세요."
         android:textColor="#2B2B2B"
-        android:textSize="20dp" />
+        android:textSize="18dp" />
 
 
     <LinearLayout
@@ -46,13 +46,18 @@
         <EditText
             android:id="@+id/station_text"
             android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:hint="ex) 왕십리역" />
+            android:layout_height="33dp"
+            android:background="@drawable/border_layout"
+            android:hint="ex) 왕십리역"
+            android:padding="7dp"
+            android:textColor="#2B2B2B"
+            android:textColorHint="#888888"
+            android:textSize="15dp" />
 
         <ImageView
             android:id="@+id/search_button"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
             android:layout_marginLeft="10dp"
             android:src="@drawable/ic_search_black_24dp" />
     </LinearLayout>
@@ -67,14 +72,33 @@
         <EditText
             android:id="@+id/gps_text"
             android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:hint="현 위치로 주소 설정" />
+            android:layout_height="33dp"
+            android:background="@drawable/border_layout"
+            android:hint="현 위치로 주소 설정"
+            android:padding="7dp"
+            android:textColor="#2B2B2B"
+            android:textColorHint="#888888"
+            android:textSize="15dp" />
 
         <ImageView
             android:id="@+id/gps_button"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
             android:layout_marginLeft="10dp"
             android:src="@drawable/ic_gps_fixed_black_24dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="25dp"
+        android:background="#A6A6A6" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="23dp"
+        android:text="완료"
+        android:textSize="18dp" />
 </LinearLayout>
