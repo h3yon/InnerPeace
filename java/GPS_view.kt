@@ -1,9 +1,11 @@
 package com.project.innerpeace
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import kotlinx.android.synthetic.main.activity_g_p_s_view.*
 
 class GPS_view : AppCompatActivity() {
 
@@ -16,8 +18,11 @@ class GPS_view : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
-
+        complete_button.setOnClickListener {
+            startActivity(Intent(this@GPS_view, HomeViewActivity::class.java))
+        }
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
         when (id) {
@@ -28,6 +33,7 @@ class GPS_view : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater = menuInflater
         inflater.inflate(R.menu.menu, menu)
