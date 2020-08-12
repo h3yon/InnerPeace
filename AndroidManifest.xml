@@ -152,6 +152,12 @@
         
         <activity android:name=".Detail_Sub6_view"></activity>
         
+        <activity android:name=".Detail_Sub7_view"></activity>
+        
+        <activity android:name=".Detail_Sub8_view"></activity>
+        
+        <activity android:name=".Detail_Sub9_view"></activity>
+        
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="iqnigx1xkk" />
