@@ -19,6 +19,8 @@ class Detail_Sub8_view : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
+        toolbar_title.setText("8 호선")
+
         val sub8List = ArrayList<SubForList>()
 
         sub8List.add(SubForList("암사"))
