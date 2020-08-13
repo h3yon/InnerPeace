@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".B_Sub_view">
+    tools:context=".Detail_Sub1_view">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
