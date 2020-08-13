@@ -14,12 +14,12 @@ class Detail_Sub3_view : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_sub_view)
 
-        toolbar_title.setText("3 호선")
-
         setSupportActionBar(findViewById(R.id.my_toolbar))
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
+
+        toolbar_title.setText("3 호선")
 
         val sub3List = ArrayList<SubForList>()
         sub3List.add(SubForList("대화"))
