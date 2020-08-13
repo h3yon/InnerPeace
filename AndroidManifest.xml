@@ -20,6 +20,8 @@
             </intent-filter>
         </activity>
         
+        <activity android:name=".Detail_view"></activity>
+        
         <activity android:name=".A_All_view">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -62,35 +64,7 @@
             </intent-filter>
         </activity>
         
-         <activity android:name=".Detail_All1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        
         <activity android:name=".Detail_Sub1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        
-        <activity android:name=".Detail_Mart1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        
-        <activity android:name=".Detail_Cafe1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        
-        <activity android:name=".Detail_Beer1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -122,7 +96,6 @@
             </intent-filter>
         </activity>
                 
-        
         
         <activity android:name=".MainActivity" />
         
