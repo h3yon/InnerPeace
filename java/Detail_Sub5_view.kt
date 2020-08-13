@@ -18,6 +18,8 @@ class Detail_Sub5_view : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
+        toolbar_title.setText("5 호선")
+
         val sub5List = ArrayList<SubForList>()
         sub5List.add(SubForList("방화"))
         sub5List.add(SubForList("개화산"))
