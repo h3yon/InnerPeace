@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".D_Market_view"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleMarginStart="40dp">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="InnerPeace"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="#B4D1CE">
+
+            </LinearLayout>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+
+                <Button
+                    android:id="@+id/Category_market_view_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="MARKET 1" />
+
+
+                <Button
+                    android:id="@+id/Category_market_view_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="MARKET 2" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="마트 이름"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="마트 이름"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="#남녀공용 #휴지O"
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="#남녀분리 #휴지O "
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </GridLayout>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+
+                <Button
+                    android:id="@+id/Category_market_view_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="MARKET 3" />
+
+
+                <Button
+                    android:id="@+id/Category_market_view_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="MARKET 4" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="마트 이름"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="마트 이름"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="#남녀공용 #휴지O"
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="#남녀분리 #휴지O "
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+
+                <Button
+                    android:id="@+id/Category_market_view_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="MARKET 5" />
+
+
+                <Button
+                    android:id="@+id/Category_market_view_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="MARKET 6" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="마트 이름"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="마트 이름"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="#남녀공용 #휴지O"
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="#남녀분리 #휴지O "
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </GridLayout>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+
+                <Button
+                    android:id="@+id/Category_market_view_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="MARKET 7" />
+
+
+                <Button
+                    android:id="@+id/Category_market_view_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="MARKET 8" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="마트 이름"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="마트 이름"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="#남녀공용 #휴지O"
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    android:textColor="#000000"
+                    android:text="#남녀분리 #휴지O "
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
