@@ -19,6 +19,8 @@ class Detail_Sub7_view : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
+        toolbar_title.setText("7 호선")
+
         val sub7List = ArrayList<SubForList>()
 
         sub7List.add(SubForList("부평구청"))
