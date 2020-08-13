@@ -19,6 +19,8 @@ class Detail_Sub9_view : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
+        toolbar_title.setText("9 호선")
+
         val sub9List = ArrayList<SubForList>()
 
         sub9List.add(SubForList("개화"))
