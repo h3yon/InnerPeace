@@ -14,6 +14,8 @@ class Detail_Sub4_view : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_sub_view)
 
+        toolbar_title.setText("4 호선")
+
         setSupportActionBar(findViewById(R.id.my_toolbar))
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
