@@ -19,6 +19,8 @@ class Detail_Sub6_view : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
+        toolbar_title.setText("6 호선")
+
         val sub6List = ArrayList<SubForList>()
 
         sub6List.add(SubForList("응암"))
