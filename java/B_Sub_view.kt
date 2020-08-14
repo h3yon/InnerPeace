@@ -1,5 +1,7 @@
 package com.project.innerpeace
 
+import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.*
@@ -22,13 +24,19 @@ class B_Sub_view : AppCompatActivity() {
         val subwayList = ArrayList<SubwayForList>()
         for (i in 1 until 10) {
             subwayList.add(SubwayForList("" + i + " 호선"))
+
         }
 
-        val adapter = SubwayAdapter(subwayList, LayoutInflater.from(this@B_Sub_view))
+        val adapter = SubwayAdapter(
+            subwayList = subwayList,
+            inflater = LayoutInflater.from(this@B_Sub_view),
+            activity = this
+        )
         food_recycler_view.adapter = adapter
         food_recycler_view.layoutManager = LinearLayoutManager(this@B_Sub_view)
 
     }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
@@ -54,13 +62,45 @@ class SubwayForList(val subwayText: String) {
 
 class SubwayAdapter(
     val subwayList: ArrayList<SubwayForList>,
-    val inflater: LayoutInflater
+    val inflater: LayoutInflater,
+    val activity: Activity
 ) : RecyclerView.Adapter<SubwayAdapter.ViewHolder>() {
-    class ViewHolder(subwayView: View) : RecyclerView.ViewHolder(subwayView) {
+    inner class ViewHolder(subwayView: View) : RecyclerView.ViewHolder(subwayView) {
         val subwayText: TextView
 
         init {
             subwayText = subwayView.findViewById(R.id.subway)
+            subwayView.setOnClickListener {
+                if (subwayText.text == "1 호선") {
+                    val intent = Intent(activity, Detail_Sub1_view::class.java)
+                    activity.startActivity(intent)
+                } else if (subwayText.text == "2 호선") {
+                    val intent = Intent(activity, Detail_Sub2_view::class.java)
+                    activity.startActivity(intent)
+                } else if (subwayText.text == "3 호선") {
+                    val intent = Intent(activity, Detail_Sub3_view::class.java)
+                    activity.startActivity(intent)
+                } else if (subwayText.text == "4 호선") {
+                    val intent = Intent(activity, Detail_Sub4_view::class.java)
+                    activity.startActivity(intent)
+                } else if (subwayText.text == "5 호선") {
+                    val intent = Intent(activity, Detail_Sub5_view::class.java)
+                    activity.startActivity(intent)
+                } else if (subwayText.text == "6 호선") {
+                    val intent = Intent(activity, Detail_Sub6_view::class.java)
+                    activity.startActivity(intent)
+                } else if (subwayText.text == "7 호선") {
+                    val intent = Intent(activity, Detail_Sub7_view::class.java)
+                    activity.startActivity(intent)
+                } else if (subwayText.text == "8 호선") {
+                    val intent = Intent(activity, Detail_Sub8_view::class.java)
+                    activity.startActivity(intent)
+                } else if (subwayText.text == "9 호선") {
+                    val intent = Intent(activity, Detail_Sub9_view::class.java)
+                    activity.startActivity(intent)
+                }
+
+            }
         }
     }
 
