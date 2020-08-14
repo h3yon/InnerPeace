@@ -72,6 +72,7 @@ class CategoryMainActivity : AppCompatActivity() {
             val intent = Intent(this, Detail_view::class.java)
             intent.putExtra(F_Beer_view.INTENT_PARCELABLE, it)
             startActivity(intent)
+            
         }
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
