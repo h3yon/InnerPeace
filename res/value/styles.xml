@@ -23,12 +23,12 @@
 <!--        <item name="android:minHeight">70dip</item>-->
     </style>
     
-<!--     Search_view를 위해 추가한 코드. 문제가 있는 듯 하여 사용하진 않았는데 향후 사용할 수도 있을 것 같아 남김
+    <!-- Search_view를 위해 추가한 코드. 문제가 있는 듯 하여 사용하진 않았는데 향후 사용할 수도 있을 것 같아 남김 -->
     <style name="SearchAutoCompleteTextView" parent="Widget.AppCompat.Light.AutoCompleteTextView">
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textColorHint">@color/hintColor</item>
         <item name="android:textSize">20dp</item>
-    </style> -->
+    </style>
 
     <style name="DefaultAppTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="autoCompleteTextViewStyle">@style/SearchAutoCompleteTextView</item>
