@@ -1,6 +1,8 @@
 package com.project.innerpeace
 
+import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +15,13 @@ class ImageAdapter(
     private val images: List<Image>,
     val listener: (Image) -> Unit
 ) : RecyclerView.Adapter<ImageAdapter.ImageViewHolder>() {
-    class ImageViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+    inner class ImageViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        init {
+            view.setOnClickListener {
+                context.startActivity(Intent(context, Detail_view::class.java))
+            }
+        }
+
         val imageSrc = view.findViewById<ImageView>(R.id.image)
         val imageTitle = view.findViewById<TextView>(R.id.title)
         val imageSummary = view.findViewById<TextView>(R.id.summary)
@@ -21,8 +29,11 @@ class ImageAdapter(
             imageSrc.setImageResource(image.imageSrc)
             imageTitle.text = image.imageTitle
             imageSummary.text = image.imageSummary
-            itemView.setOnClickListener { listener(image) }
+            itemView.setOnClickListener {
+                listener(image)
+            }
         }
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageViewHolder =
