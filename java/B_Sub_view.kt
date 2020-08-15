@@ -8,7 +8,7 @@ import android.view.*
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.activity_detail__food1.*
+import kotlinx.android.synthetic.main.activity_detail__item.*
 
 class B_Sub_view : AppCompatActivity() {
 
