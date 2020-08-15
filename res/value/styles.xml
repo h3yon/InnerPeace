@@ -33,5 +33,6 @@
     <style name="DefaultAppTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="autoCompleteTextViewStyle">@style/SearchAutoCompleteTextView</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
 
 </resources>
