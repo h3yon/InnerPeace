@@ -71,33 +71,24 @@ class SubwayAdapter(
         init {
             subwayText = subwayView.findViewById(R.id.subway)
             subwayView.setOnClickListener {
-                if (subwayText.text == "1 호선") {
-                    val intent = Intent(activity, Detail_Sub1_view::class.java)
-                    activity.startActivity(intent)
+               if (subwayText.text == "1 호선") {
+                    activity.startActivity(Intent(activity, Detail_Sub1_view::class.java))
                 } else if (subwayText.text == "2 호선") {
-                    val intent = Intent(activity, Detail_Sub2_view::class.java)
-                    activity.startActivity(intent)
+                    activity.startActivity(Intent(activity, Detail_Sub2_view::class.java))
                 } else if (subwayText.text == "3 호선") {
-                    val intent = Intent(activity, Detail_Sub3_view::class.java)
-                    activity.startActivity(intent)
+                    activity.startActivity(Intent(activity, Detail_Sub3_view::class.java))
                 } else if (subwayText.text == "4 호선") {
-                    val intent = Intent(activity, Detail_Sub4_view::class.java)
-                    activity.startActivity(intent)
+                    activity.startActivity(Intent(activity, Detail_Sub4_view::class.java))
                 } else if (subwayText.text == "5 호선") {
-                    val intent = Intent(activity, Detail_Sub5_view::class.java)
-                    activity.startActivity(intent)
+                    activity.startActivity(Intent(activity, Detail_Sub5_view::class.java))
                 } else if (subwayText.text == "6 호선") {
-                    val intent = Intent(activity, Detail_Sub6_view::class.java)
-                    activity.startActivity(intent)
+                    activity.startActivity(Intent(activity, Detail_Sub6_view::class.java))
                 } else if (subwayText.text == "7 호선") {
-                    val intent = Intent(activity, Detail_Sub7_view::class.java)
-                    activity.startActivity(intent)
+                    activity.startActivity(Intent(activity, Detail_Sub7_view::class.java))
                 } else if (subwayText.text == "8 호선") {
-                    val intent = Intent(activity, Detail_Sub8_view::class.java)
-                    activity.startActivity(intent)
+                    activity.startActivity(Intent(activity, Detail_Sub8_view::class.java))
                 } else if (subwayText.text == "9 호선") {
-                    val intent = Intent(activity, Detail_Sub9_view::class.java)
-                    activity.startActivity(intent)
+                    activity.startActivity(Intent(activity, Detail_Sub9_view::class.java))
                 }
 
             }
