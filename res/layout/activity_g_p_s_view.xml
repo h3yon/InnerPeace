@@ -45,7 +45,7 @@
 
         <EditText
             android:id="@+id/station_text"
-            android:layout_width="250dp"
+            android:layout_width="280dp"
             android:layout_height="33dp"
             android:background="@drawable/border_layout"
             android:hint="ex) 왕십리역"
@@ -69,23 +69,23 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/gps_text"
-            android:layout_width="250dp"
-            android:layout_height="33dp"
-            android:background="@drawable/border_layout"
-            android:hint="현 위치로 주소 설정"
-            android:padding="7dp"
-            android:textColor="#2B2B2B"
-            android:textColorHint="#888888"
-            android:textSize="15dp" />
+        <!-- <EditText
+             android:id="@+id/gps_text"
+             android:layout_width="280dp"
+             android:layout_height="33dp"
+             android:background="@drawable/border_layout"
+             android:hint="현 위치로 주소 설정"
+             android:padding="7dp"
+             android:textColor="#2B2B2B"
+             android:textColorHint="#888888"
+             android:textSize="15dp" />
 
-        <ImageView
-            android:id="@+id/gps_button"
-            android:layout_width="27dp"
-            android:layout_height="27dp"
-            android:layout_marginLeft="10dp"
-            android:src="@drawable/ic_gps_fixed_black_24dp" />
+         <ImageView
+             android:id="@+id/gps_button"
+             android:layout_width="27dp"
+             android:layout_height="27dp"
+             android:layout_marginLeft="10dp"
+             android:src="@drawable/ic_gps_fixed_black_24dp" />-->
     </LinearLayout>
 
     <fragment
@@ -95,13 +95,15 @@
         android:layout_height="350dp"
         android:layout_marginTop="25dp" />
 
-
     <Button
-        android:id="@+id/complete_button"
-        android:layout_width="match_parent"
+        android:id="@+id/emergency_button"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="23dp"
-        android:text="완료"
-        android:textSize="18dp" />
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="#6E6E6E"
+        android:text="긴급"
+        android:textSize="20dp" />
+
+
 </LinearLayout>
