@@ -145,6 +145,28 @@ open class HomeViewActivity : AppCompatActivity(), OnMapReadyCallback {
             FusedLocationSource(this, LOCATION_PERMISSION_REQUEST_CODE)
 
         Log.d("json", "onCreate 끝")
+        
+         //각 버튼 누를 때 화면 전환
+        allToilet.setOnClickListener {
+            startActivity(Intent(this@HomeViewActivity, A_All_view::class.java))
+        }
+        metroToilet.setOnClickListener {
+            startActivity(Intent(this@HomeViewActivity, B_Sub_view::class.java))
+        }
+        cafeToilet.setOnClickListener {
+            startActivity(Intent(this@HomeViewActivity, E_Cafe_view::class.java))
+        }
+        restaurantToilet.setOnClickListener {
+            startActivity(Intent(this@HomeViewActivity, D_Food_view::class.java))
+        }
+        BarToilet.setOnClickListener {
+            startActivity(Intent(this@HomeViewActivity, F_Beer_view::class.java))
+        }
+        MarketToilet.setOnClickListener {
+            startActivity(Intent(this@HomeViewActivity, C_Mart_view::class.java))
+        }
+
+        val inputString = intent.getStringExtra("input")
     }
 
 
