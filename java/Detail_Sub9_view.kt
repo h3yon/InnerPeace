@@ -2,86 +2,93 @@ package com.project.innerpeace
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuItem
+import android.view.*
+import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_detail_sub_view.*
 
 class Detail_Sub9_view : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_sub_view)
-
+        setContentView(R.layout.activity_search_view)
         setSupportActionBar(findViewById(R.id.my_toolbar))
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         toolbar_title.setText("9 호선")
 
-        val sub9List = ArrayList<SubForList>()
+        val search = findViewById<SearchView>(R.id.searchView)
+        search.background = null
+        val listView = findViewById<ListView>(R.id.searchList)
 
-        sub9List.add(SubForList("개화"))
-        sub9List.add(SubForList("김포공항"))
-        sub9List.add(SubForList("공항시장"))
-        sub9List.add(SubForList("신방화"))
-        sub9List.add(SubForList("마곡나루"))
-        sub9List.add(SubForList("양천향교"))
-        sub9List.add(SubForList("가양"))
-        sub9List.add(SubForList("증미"))
-        sub9List.add(SubForList("등촌"))
-        sub9List.add(SubForList("염창"))
-        sub9List.add(SubForList("신목동"))
-        sub9List.add(SubForList("선유도"))
-        sub9List.add(SubForList("당산"))
-        sub9List.add(SubForList("국회의사당"))
-        sub9List.add(SubForList("여의도"))
-        sub9List.add(SubForList("샛강"))
-        sub9List.add(SubForList("노량진"))
-        sub9List.add(SubForList("노들"))
-        sub9List.add(SubForList("흑석"))
-        sub9List.add(SubForList("동작"))
-        sub9List.add(SubForList("구반포"))
-        sub9List.add(SubForList("신반포"))
-        sub9List.add(SubForList("고속터미널"))
-        sub9List.add(SubForList("사평"))
-        sub9List.add(SubForList("신논현"))
-        sub9List.add(SubForList("언주"))
-        sub9List.add(SubForList("선정릉"))
-        sub9List.add(SubForList("삼성중앙"))
-        sub9List.add(SubForList("봉은사"))
-        sub9List.add(SubForList("종합운동장"))
-        sub9List.add(SubForList("삼전"))
-        sub9List.add(SubForList("석촌고분"))
-        sub9List.add(SubForList("석촌"))
-        sub9List.add(SubForList("송파나루"))
-        sub9List.add(SubForList("한성백제"))
-        sub9List.add(SubForList("올림픽 공원"))
-        sub9List.add(SubForList("둔촌오륜"))
-        sub9List.add(SubForList("중앙 보훈병원"))
+        val sub9List = arrayListOf<String>()
+        sub9List.add(("개화(외부)"))
+        sub9List.add(("김포공항(내외부)_5, 9"))
+        sub9List.add(("공항시장(외부)"))
+        sub9List.add(("신방화(외부)"))
+        sub9List.add(("마곡나루(내외부)"))
+        sub9List.add(("양천향교(외부)"))
+        sub9List.add(("가양(외부)"))
+        sub9List.add(("증미(외부)"))
+        sub9List.add(("등촌(외부)"))
+        sub9List.add(("염창(외부)"))
+        sub9List.add(("신목동(외부)"))
+        sub9List.add(("선유도(외부)"))
+        sub9List.add(("당산(내부)_2, 9"))
+        sub9List.add(("국회의사당(내외부)"))
+        sub9List.add(("여의도(내외부)_5, 9"))
+        sub9List.add(("샛강(외부)"))
+        sub9List.add(("노량진(내외부)_1, 9"))
+        sub9List.add(("노들(외부)"))
+        sub9List.add(("흑석(외부)"))
+        sub9List.add(("동작(내외부)_4, 9"))
+        sub9List.add(("구반포(외부)"))
+        sub9List.add(("신반포(외부)"))
+        sub9List.add(("고속터미널(내외부)_3, 7, 9"))
+        sub9List.add(("사평(외부)"))
+        sub9List.add(("신논현(외부)"))
+        sub9List.add(("언주(외부)"))
+        sub9List.add(("선정릉(외부)"))
+        sub9List.add(("삼성중앙(외부)"))
+        sub9List.add(("봉은사(외부)"))
+        sub9List.add(("종합운동장(외부)_2, 9"))
+        sub9List.add(("삼전(외부)"))
+        sub9List.add(("석촌고분(외부)"))
+        sub9List.add(("석촌(내외부)_8, 9"))
+        sub9List.add(("송파나루(외부)"))
+        sub9List.add(("한성백제(외부)"))
+        sub9List.add(("올림픽 공원(내외부)_5, 9"))
+        sub9List.add(("둔촌오륜(외부)"))
+        sub9List.add(("중앙 보훈병원(외부)"))
 
-        val adapter = DetailSubAdapter(sub9List, LayoutInflater.from(this@Detail_Sub9_view))
-        sub_recycler_view.adapter = adapter
-        sub_recycler_view.layoutManager = LinearLayoutManager(this@Detail_Sub9_view)
 
-    }
+        val adapter: ArrayAdapter<String> = ArrayAdapter(
+            this, R.layout.simple_list_item_1, sub9List
+        )
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-        when (id) {
-            android.R.id.home -> {
-                finish()
-                return true
+        listView.adapter = adapter
+//        names.setTextColor(Color.BLACK)
+
+        search.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(p0: String): Boolean {
+                search.clearFocus()
+                if (sub9List.contains(p0)) {
+                    adapter.filter.filter(p0)
+                } else {
+                    Toast.makeText(applicationContext, "Item not found", Toast.LENGTH_LONG).show()
+                }
+                return false
             }
-        }
-        return super.onOptionsItemSelected(item)
-    }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
+            override fun onQueryTextChange(p0: String): Boolean {
+                adapter.filter.filter(p0)
+                return false
+            }
+
+        })
     }
 }
