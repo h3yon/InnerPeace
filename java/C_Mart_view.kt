@@ -348,6 +348,35 @@ class C_Mart_view : AppCompatActivity() {
                         "정보없음\n 남/녀 화장실 구분"
             )
         )
+        
+        val itemList8_1 = listOf<Image>(
+            Image(
+                R.mipmap.ic_launcher,
+                "이마트 가든파이브점","#남/녀 화장실 구분 #장애인편의시설",
+                "장지\n 서울 송파구 충민로 10 가든파이브툴\n 02-411-1235\n" +
+                        "일요일 휴무\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "롯데마트 잠실점","#남/녀 화장실 구분",
+                "잠실\n 서울 송파구 올림픽로 240\n 02-411-8025\n" +
+                        "매일 10:00 - 23:00\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "홈플러스","#남/녀 화장실 구분 #유아시설",
+                "잠실\n 서울 송파구 올림픽로35가길 16 홈플러스잠실점\n 02-3468-8000\n" +
+                        "매일 10:00 - 24:00\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "이마트","#남/녀 화장실 구분 #장애인 편의시설",
+                "천호\n 서울 강동구 천호대로 1017 이마트천호점\n 02-2224-1234\n" +
+                        "일요일 휴무\n 남/녀 화장실 구분"
+            )
+
+
+        )
 
         val recyclerView = findViewById<RecyclerView>(R.id.item_recyclerView)
         recyclerView.layoutManager = manager
