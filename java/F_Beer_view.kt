@@ -27,21 +27,21 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList1_1 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.one_1_1_beer,
                 "펍카페1429",
                 "#남/녀 화장실 구분",
                 "덕계 \n 경기 양주시 평화로1429번길 10 \n 031-866-1429" +
                         "\n 매일 11:00 - 24:00둘째주 넷째주 일요일 휴무 \n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.one_1_2_beer,
                 "엔젤링 테이스팅 펍",
                 "#남/녀 화장실 구분",
                 "의정부 \n 경기 의정부시 민락로 195 \n 031-928-5522" +
                         "\n 18:00 - 01:00 일요일 휴무 \n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.one_1_3_beer,
                 "사쿠라테이엔",
                 "#남/녀 화장실 구분",
                 "의정부 \n 경기 의정부시 오목로225번길 89-63 \n 031-852-0741" +
@@ -50,22 +50,22 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList1_2 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_2_1_beer,
                 "홍곱창", "#외부 #남/녀 화장실 구분",
                 "회기 \n 서울 동대문구 회기로25길 60 \n 02-3295-1187" +
                         "\n 매일 14:00 - 23:30 일요일 휴무 \n 외부 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_2_2_beer,
                 "봉쥬비어", "#남/녀 화장실 구분",
                 "회기 \n 서울 동대문구 회기로 190 \n 02-965-5150" +
                         "\n 주중16:00 ~ 03:30 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_2_3_beer,
                 "아도겐", "#남/녀 화장실 구분",
                 "광운대 \n 서울 성북구 화랑로42길 50 \n 02-966-5079" +
                         "\n 매일 17:00 - 06:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_2_4_beer,
                 "무나드", "#남/녀 화장실 구분",
                 "청량리 \n 서울 동대문구 천호대로35길 65 \n 02-967-0423" +
                         "\n 평일 11:00-00:00주말 18:00 - 00:00 월요일 휴무 \n 남/녀 화장실 구분"
@@ -73,22 +73,22 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList1_3 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_3_1_beer,
                 "차차 티클럽", "#남/녀 화장실 구분",
                 "동대문 \n 서울 종로구 종로46가길 13 \n 070-7755-4758" +
                         "\n 매일 13:00 ~ 22:00 월요일 휴무 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_3_2_beer,
                 "박가네 빈대떡", "#남/녀 화장실 구분",
                 "종로5가 \n 서울 종로구 종로32길 7 \n 02-2264-0847" +
                         "\n 매일 08:00 - 22:30 연중무휴 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_3_3_beer,
                 "마천루", "#남/녀 화장실 구분",
                 "종각 \n 서울 종로구 삼일대로17길 51 스타골드빌딩 \n 02-733-9922" +
                         "\n 매일 17:30 - 11:30 연중무휴 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_3_4_beer,
                 "이자카야나무", "#남/녀 화장실 구분",
                 "종각 \n 서울 종로구 종로10길 16 2,3층 \n 02-722-6787" +
                         "\n 매일 15:00 ~ 05:00 \n 남/녀 화장실 구분"
@@ -96,49 +96,49 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList1_4 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_4_1_beer,
                 "교동전선생", "#남/녀 화장실 구분",
                 "시청 \n 서울 중구 남대문로9길 40 센터플레이스 1층 104,105호 \n 02-6031-8949" +
                         "\n 평일 11:00-10:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_4_2_beer,
                 "르 캬바레 시떼", "#남/녀 화장실 구분",
                 "시청 \n 서울 중구 소공로 119 LL층 \n 02-318-8766" +
                         "\n 매일 18:00 - 01:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_4_3_beer,
                 "청담이상", "#남/녀 화장실 구분",
                 "신도림 \n 서울 구로구 경인로 661 신도림 1차 푸르지오 1층 122호 \n 02-3667-2590" +
                         "\n 정보없음 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_4_4_beer,
                 "역전할머니맥주", "#내부",
                 "노량진 \n 서울 동작구 만양로 104 1층 \n 02-3280-8283" +
                         "\n 정보없음 \n 내부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_4_5_beer,
                 "역전할머니맥주", "#건물 내부",
                 "신도림 \n 서울 구로구 경인로67길 23 \n 02-2634-5507" +
                         "\n 매일 17:00 - 03:00 \n 건물 내부"
             )
         )
         val itemList1_5 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_5_1_beer,
                 "포차천국", "#남/녀 화장실 구분",
                 "개봉 \n 서울 구로구 개봉로23가길 30 \n 02-2616-1090" +
                         "\n 매일 16:00 - 03:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_5_2_beer,
                 "미소와인", "#남/녀 화장실 구분",
                 "개봉 \n 서울 구로구 경인로40길 25 미소와인 \n 02-2688-6683" +
                         "\n 매일 18:00 - 03:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_5_3_beer,
                 "호맥", "#남/녀 화장실 구분",
                 "부천 \n 경기 부천시 부천로29번길 20 1층 \n 032-656-1228" +
                         "\n 매일 17:00 - 03:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_5_4_beer,
                 "시장을여는사람들", "#남/녀 화장실 구분",
                 "부천 \n 경기 부천시 부일로459번길 33 \n 010-6340-0732" +
                         "\n 매일 17:00 - 05:00 \n 남/녀 화장실 구분"
@@ -146,22 +146,22 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList1_6 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_6_1_beer,
                 "휄리스", "#남/녀 화장실 구분",
                 "인천 \n 인천 중구 홍예문로 56 \n 032-777-6992" +
                         "\n 032-777-6992 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_6_2_beer,
                 "온도", "#남/녀 화장실 구분",
                 "동인천 \n 인천 중구 우현로67번길 35-28 \n 010-3126-6734" +
                         "\n 매일 18:00 - 02:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_6_3_beer,
                 "디지", "#남/녀 화장실 구분",
                 "부평 \n 인천 부평구 경원대로1403번길 15 5층 501호 디지 \n 032-501-9462" +
                         "\n 매일 18:00 - 03:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_6_4_beer,
                 "시장을여는사람들", "#내부 #남/녀 화장실 구분",
                 "부평 \n 인천 부평구 경원대로1403번길 21 2층 \n 032-515-1610" +
                         "\n 매일 17:00 - 05:00 \n 남/녀 화장실 구분 \n 내"
@@ -169,22 +169,22 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList1_7 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_7_1_beer,
                 "육전면사무소", "#남/녀 화장실 구분",
                 "가산디지털단지 \n 서울 금천구 벚꽃로 298 지하1층 \n 02-2083-8577" +
                         "\n 평일 11:00 - 21:30 일요일 휴무 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_7_2_beer,
                 "평일 11:00 - 21:30 일요일 휴무", "#남/녀 화장실 구분",
                 "가산디지털단지 \n 서울 금천구 가산디지털1로 168 \n 02-851-1188" +
                         "\n 매일 17:00 - 01:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_7_3_beer,
                 "미식클럽", "#남/녀 화장실 구분",
                 "수원 \n 경기 수원시 팔달구 향교로 3-2 3층 \n 070-4147-1111" +
                         "\n 매일 17:00 - 05:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.one_7_4_beer,
                 "꿀통", "#남/녀 화장실 구분",
                 "수원 \n 경기 수원시 팔달구 향교로 30 \n 031-246-8254" +
                         "\n 평일 17:00 - 05:00, 주말 17:00 - 004:00 \n 남/녀 화장실 구분"
@@ -192,22 +192,22 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList2_1 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_1_1_beer,
                 "역전할머니맥주", "#외부",
                 "신도림 \n 서울 구로구 경인로67길 23 \n 02-2634-5507" +
                         "\n 매일 17:00~03:00 \n 외부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_1_2_beer,
                 "술이남", "#남/녀 화장실 구분",
                 "신림 \n 서울 관악구 신림동길 5 2층 \n 070-4101-0884" +
                         "\n 매일 18:00 - 05:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_1_3_beer,
                 "삼촌네", "#남/녀 화장실 구분",
                 "신림 \n 서울 관악구 신림로59길 14 민속순대타운306호 \n 02-873-9637" +
                         "\n 매일 11:00 - 01:00 첫째주 월요일 휴무 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_1_4_beer,
                 "화양가옥", "#남/녀 화장실 구분",
                 "구로디지털단지 \n 서울 구로구 디지털로32나길 17-23 1층 \n 02-838-0877" +
                         "\n 평일 17:00 - 23:00 주말 17:00 - 00:00 \n 남/녀 화장실 구분"
@@ -215,32 +215,32 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList2_2 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_2_1_beer,
                 "잔잔", "#남/녀 화장실 구분",
                 "서울대입구 \n 서울 관악구 남부순환로230길 22 1층 \n 02-877-0876" +
                         "\n 평일 17:00 - 02:00 주말 17:00 - 03:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_2_2_beer,
                 "현씨공방", "#외부 #소규모",
                 "서울대입구 \n 서울 관악구 관악로16길 42 \n 02-3285-0215" +
                         "\n 매일 17:00 - 03:00 \n 외부 \n 소규모"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_2_3_beer,
                 "느린마을양조장", "#남/녀 화장실 구분",
                 "사당 \n 서울 서초구 방배천로2길 21 지하 1층 \n 02-525-6033" +
                         "\n 월,화요일 17:00 - 24: 00 평일 17:00 - 01:00 휴일 17:00 - 22:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_2_4_beer,
                 "백화네부엌", "#남/녀 화장실 구분",
                 "교대 \n 서울 서초구 반포대로28길 76 1층, 지하1층 \n 02-586-9876" +
                         "\n 매일 11:00 - 04:00 일요일 휴무 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_2_5_beer,
                 "아이해브어드림", "#남/녀 화장실 구분",
                 "강남 \n 서울 강남구 테헤란로5길 7 KG Tower 지하1층 \n 02-3453-7697" +
                         "\n 평일 17:00 - 02:00 주말 12:00 - 02:00 일요일은 2시간 조기마감 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_2_6_beer,
                 "이자카야나무", "#남/녀 화장실 구분",
                 "선릉 \n 서울 강남구 선릉로86길 37 덕우빌딩 \n 02-557-0348" +
                         "\n 매일 15:30~05:00 \n 남/녀 화장실 구분"
@@ -248,22 +248,22 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList2_3 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_3_1_beer,
                 "백세주마을", "#남/녀 화장실 구분",
                 "삼성 \n 서울 강남구 봉은사로 641 국순당빌딩 \n 02-546-7103" +
                         "\n 평일 17:00 - 00:00 일요일 휴무 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_3_2_beer,
                 "123 라운지", "#소규모 #내부",
                 "잠실 \n 서울 송파구 올림픽로 300 롯데월드타워 123층 \n 02-3213-8019" +
                         "\n 평일 11:00 - 21:50 주말 11:00 - 22:50 \n 소규모 \n 내부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_3_3_beer,
                 "daughter", "#남/녀 화장실 구분",
                 "건대입구 \n 서울 광진구 아차산로31길 40 \n 02-464-0559" +
                         "\n 평일 12:00 - 23:30 주말 11:00 - 23:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_3_4_beer,
                 "역전할머니맥주", "#남/녀 화장실 구분",
                 "건대입구 \n 서울 광진구 아차산로25길 13 \n 02-468-3400" +
                         "\n 매일 15:00 - 05:00 \n 남/녀 화장실 구분"
@@ -271,22 +271,22 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList2_4 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_4_1_beer,
                 "용용선생", "#남/녀 화장실 구분 #내부",
                 "왕십리 \n 서울 성동구 마조로3가길 15 \n 02-2297-1540" +
                         "\n 매일 17:00 - 04:00 \n 남/녀 화장실 구분 #내부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_4_2_beer,
                 "낙원스낵", "#남/녀 화장실 구분 #내부 ",
                 "왕십리 \n 서울 성동구 마조로5길 14 \n 02-2297-1540" +
                         "\n 매일 17:00 - 04:00 \n 남/녀 화장실 구분 \n 내부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_4_3_beer,
                 "행2PM8PM", "#남/녀 화장실 구분 #내부 ",
                 "을지로3가 \n 서울 중구 수표로12길 10 전체통건물 행2PM8PM \n 010-5364-6915" +
                         "\n 평일 12:00 - 23:00 주말 17:00 - 23:00 토요일은 2시간 더 영업 \n 남/녀 화장실 구분 \n 내부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_4_4_beer,
                 "와인주막차차", "#남/녀 화장실 구분",
                 "을지로3가 \n 서울 중구 삼일대로 343 대신파이낸스센터 2층 와인주막차차 명동점 \n 02-318-0937" +
                         "\n 평일 11:00 - 24:00 주말 17:00 - 23:00 \n 남/녀 화장실 구분"
@@ -294,32 +294,32 @@ class F_Beer_view : AppCompatActivity() {
         )
 
         val itemList2_5 = listOf<Image>(
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_5_1_beer,
                 "에어플레인모드", "#남/녀 화장실 구분",
                 "신촌 \n 서울 서대문구 연세로4길 36 \n 010-3284-7779" +
                         "\n 매일 12:00 - 02:00 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_5_2_beer,
                 "한신포차", "#내부",
                 "신촌 \n 서울 서대문구 연세로7안길 10-4 \n 02-333-3284" +
                         "\n 매일 17:30 - 04:40 \n 내부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_5_3_beer,
                 "뉴오더클럽", "#남녀공용 #내부",
                 "홍대입구 \n 서울 마포구 동교로34길 3 \n 02-336-1025" +
                         "\n 매일 14:00 - 24:00 \n 남녀공용 \n 내부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_5_4_beer,
                 "비포선라이즈", "#남/녀 화장실 구분",
                 "홍대입구 \n 서울 마포구 잔다리로 20-11 \n 010-7145-1177" +
                         "\n 평일 17:00 - 02:30 주말,금요일 17:00 - 03:30 \n 남/녀 화장실 구분"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_5_5_beer,
                 "포차천국", "#남/녀 화장실 구분 #외부",
                 "영등포구청 \n 서울 영등포구 국회대로34길 16-1 \n 02-6403-9996" +
                         "\n 매일 16:00 - 05:00 \n 남/녀 화장실 구분 \n 외부"
             ),
-            Image(R.mipmap.ic_launcher,
+            Image(R.mipmap.two_5_6_beer,
                 "아이엠이자카야", "#남/녀 화장실 구분",
                 "당산 \n 서울 영등포구 양평로14길 12 \n 070-8835-4457" +
                         "\n 매일 18:00 - 01:00 \n 남/녀 화장실 구분"
@@ -328,7 +328,7 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList3_1 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_1_1_beer,
                 "소마",
                 "#남/녀 화장실 구분",
                 "대화 \n 경기 고양시 일산서구 중앙로 1567" +
@@ -336,7 +336,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_1_2_beer,
                 "다옴",
                 "#남/녀 화장실 구분",
                 "정발산 \n 경기 고양시 일산동구 무궁화로 43-15" +
@@ -344,7 +344,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_1_3_beer,
                 "부엉이산장",
                 "#남/녀 화장실 구분",
                 "연신내 \n 서울 은평구 연서로25길 6-18" +
@@ -352,7 +352,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_1_4_beer,
                 "몬스터포차",
                 "#남/녀 화장실 구분",
                 "녹번 \n 서울 은평구 서오릉로 54" +
@@ -363,7 +363,7 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList3_2 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_2_1_beer,
                 "첫잔",
                 "#남/녀 화장실 구분",
                 "독립문 \n 서울 종로구 자하문로1길 28" +
@@ -371,7 +371,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_2_2_beer,
                 "내자살롱",
                 "#남/녀 화장실 구분",
                 "경복궁 \n 서울 종로구 사직로12길 22" +
@@ -379,7 +379,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_2_3_beer,
                 "기와탭룸",
                 "#남/녀 화장실 구분",
                 "안국 \n 서울 종로구 율곡로1길 74-7" +
@@ -387,7 +387,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_2_4_beer,
                 "노가리슈퍼 익선점",
                 "#남/녀 화장실 구분",
                 "안국 \n 서울 종로구 수표로28길 28" +
@@ -398,7 +398,7 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList3_3 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_3_1_beer,
                 "을지맥옥",
                 "#남/녀 화장실 구분",
                 "을지로3가 \n 서울 중구 수표로 48-16" +
@@ -406,7 +406,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_3_2_beer,
                 "취향로3가",
                 "#남/녀 화장실 구분",
                 "을지로3가 \n 서울 중구 충무로5길 21" +
@@ -414,7 +414,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_3_3_beer,
                 "브아브아",
                 "#가게 내부",
                 "충무로 \n 서울 중구 퇴계로 197" +
@@ -422,7 +422,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 가게 내부"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_3_4_beer,
                 "노메",
                 "#남/녀 화장실 구분",
                 "동대입구 \n 서울 중구 다산로 114-12" +
@@ -430,7 +430,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_3_5_beer,
                 "장프리고",
                 "#남/녀 화장실 구분",
                 "약수 \n 서울 중구 퇴계로62길 9-8" +
@@ -441,7 +441,7 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList3_4 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_4_1_beer,
                 "더 미트 바",
                 "#남/녀 화장실 구분",
                 "압구정 \n 서울 강남구 압구정로50길 25" +
@@ -449,7 +449,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_4_2_beer,
                 "묵전",
                 "#남/녀 화장실 구분",
                 "압구정 \n 서울 강남구 언주로168길 22" +
@@ -457,7 +457,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_4_3_beer,
                 "오호리준 신사가로수길점",
                 "#남/녀 공용",
                 "신사 \n 서울 강남구 강남대로158길 10" +
@@ -465,7 +465,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 공용"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_4_4_beer,
                 "로프트",
                 "#남/녀 화장실 구분",
                 "신사 \n 서울 강남구 강남대로152길 62" +
@@ -476,7 +476,7 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList3_5 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_5_1_beer,
                 "펀비어킹 고속터미널점",
                 "#가게 외부",
                 "고속터미널 \n 서울 서초구 신반포로 194" +
@@ -484,7 +484,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 가게 외부"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_5_2_beer,
                 "백화네부엌 교대점",
                 "#남/녀 화장실 구분",
                 "교대 \n 서울 서초구 반포대로28길 76" +
@@ -492,7 +492,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_5_3_beer,
                 "느린마을양조장 양재점",
                 "#남/녀 화장실 구분",
                 "양재 \n 서울 서초구 강남대로27길 7-9" +
@@ -500,7 +500,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_5_4_beer,
                 "생활맥주 한티역점",
                 "#남/녀 화장실 구분",
                 "도곡 \n 서울 강남구 선릉로64길 9" +
@@ -508,7 +508,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_5_5_beer,
                 "밤고개포차",
                 "#남/녀 화장실 구분",
                 "수서 \n 서울 강남구 광평로51길 6-5" +
@@ -516,7 +516,7 @@ class F_Beer_view : AppCompatActivity() {
                         "\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.three_5_6_beer,
                 "생활맥주 수서역점",
                 "#남/녀 화장실 구분",
                 "수서 \n 서울 강남구 광평로51길 8" +
@@ -527,41 +527,41 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList4_1 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.five_1_1_beer,
                 "주막", "#남/녀 화장실 구분",
                 "미아사거리역\n 서서울 강북구 월계로7나길 30-3 미아동 54-259\n 070-7607-1680\n " +
                         "매일 15:00 - 02:00연중무휴\n 남/녀 화장실 구분\n"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.five_1_2_beer,
                 "소주한점", "#남/녀 화장실 구분",
                 "쌍문역\n 서울 도봉구 우이천로24길 52 쌍문동 103-218 1층\n 02-6014-0522\n " +
                         "매일 16:30 - 24:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.five_1_3_beer,
                 "우마이", "#남/녀 화장실 구분",
                 "쌍문역\n 서울 도봉구 도봉로106길 22 창동 647-1 북한산현대홈시티아파트 201동 101호\n 02-906-7779\n " +
                         "매일 15:30 - 02:00 매월첫째ㆍ셋째 화요일 휴무\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.five_1_4_beer,
                 "하토상의술방", "#남/녀 화장실 구분",
                 "노원역\n 서울 노원구 상계로3길 10 상계동 593-3\n 02-938-2252\n " +
                         "매일 16:30 - 02:30\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_1_5_beer,
                 "랜돌프비어 노원역점", "#남/녀 화장실 구분",
                 "노원역\n 서울 노원구 노해로85길 18 상계동 341-2 2층\n 02-930-1515\n " +
                         "매일 17:00 - 03:30\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_1_6_beer,
                 "알코하임29클래스", "#남/녀 화장실 구분",
                 "미아역\n 서울 강북구 솔매로 131 미아동 197-11 B1 알코하임\n 02-980-6766\n " +
                         "주말 18:00 - 03:00금-토 평일 18:00 - 02:00일-목\n 남/녀 화장실 구분\n"
@@ -571,27 +571,27 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList4_2 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_2_1_beer,
                 "코코스", "#남/녀 화장실 구분",
                 "성신여대역\n 서울 성북구 동소문로20다길 7\n 02-926-1116\n " +
                         "매일 17:00 - 05:00\n 남/녀 화장실 구분\n"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_2_2_beer,
                 "반듯한잔", "#남/녀 화장실 구분",
                 "성신여대역\n 서울 성북구 동소문로22길 80\n 02-942-5577\n " +
                         "주말 17:30 - 04:00 평일 17:30 - 02:00 매주 수요일 휴무\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_2_3_beer,
                 "야스미", "#남/녀 화장실 구분",
                 "혜화역\n 서울 종로구 대명길 39-10\n 010-7662-2550\n " +
                         "주말 12:00 - 01:00 평일 11:30 - 00:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_2_4_beer,
                 "혜화랑", "#남/녀 화장실 구분",
                 "혜화역\n 서울 종로구 대학로14길 22-3\n 02-765-7342\n " +
                         "주말 16:00 - 01:00  평일 17:00 - 01:00\n 남/녀 화장실 구분\n"
@@ -601,27 +601,27 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList4_3 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_3_1_beer,
                 "느린마을양조장 센터원점", "#남/녀 화장실 구분",
                 "명동역\n 서울 중구 을지로5길 26\n 02-6030-0999\n " +
                         "일, 공휴일 16:00 - 22:00 평일 17:00 - 00:00 토요일 16:00 - 23:30\n 남/녀 화장실 구분\n"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_3_2_beer,
                 "바302호", "#남/녀 화장실 구분",
                 "명동역\n 서울 중구 삼일대로12길 18\n 070-4300-3072\n " +
                         "매일 18:30 - 01:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_3_3_beer,
                 "열정도 감자집", "#남/녀 화장실 구분",
                 "숙대입구역\n 서울 용산구 백범로87길 53\n 070-8258-6331\n " +
                         "주말, 평일 17:15 - 01:00 금요일 17:15 - 02:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_3_4_beer,
                 "장프리고", "#남/녀 화장실 구분",
                 "동대문역\n 서울 중구 퇴계로62길 9-8\n 02-2275-1933\n " +
                         "평일 12:00 - 02:00 금, 토요일 12:00 - 03:00 일요일 휴무\n 남/녀 화장실 구분\n"
@@ -631,27 +631,27 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList4_4 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_4_1_beer,
                 "테바사키반초", "#남/녀 화장실 구분",
                 "이촌역\n 서울 용산구 서빙고로 69\n 02-6953-5189\n " +
                         "주말 12:00 - 01:00 평일 17:00 - 01:00 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_4_2_beer,
                 "붐박스", "#남/녀 화장실 구분",
                 "삼각지역\n 서울 용산구 백범로90라길 29\n 02-704-8003\n " +
                         "매일 18:00 - 02:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_4_3_beer,
                 "달망", "#남/녀 화장실 구분",
                 "삼각지역\n 서울 용산구 한강대로40길 19-8\n 070-4079-0522\n " +
                         "평일 18:30 - 00:00 목~토요일 18:30 - 01:00 일요일 휴무\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_4_4_beer,
                 "신사펍", "#남/녀 화장실 구분",
                 "이수역\n 서울 동작구 동작대로 129\n 010-4849-1571\n " +
                         "매일 18:00 - 02:00\n 남/녀 화장실 구분\n"
@@ -662,28 +662,28 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList4_5 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_5_1_beer,
                 "구름공방", "#남/녀 화장실 구분",
                 "수락산역\n 서울 노원구 동일로242길 42\n 02-936-5089\n " +
                         "정보없음\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_5_2_beer,
                 "수락산 베이스캠프", "#남/녀 화장실 구분",
                 "수락산역\n 서울 노원구 동일로242길 502-934-4944\n 02-934-4944\n " +
                         "주말 16:00 - 02:00 평일 17:00 - 02:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_5_3_beer,
                 "별주막", "#남/녀 화장실 구분",
                 "과천역\n 경기 과천시 별양상가1로 37\n 02-504-7016\n " +
                         "평일 15:00 - 01:00 토요일 14:00 - 01:00 일요일 14:00 - 00:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
-                "코주막", "#남/녀 화장실 구분",
+                R.mipmap.four_5_4_beer,
+                "코주박", "#남/녀 화장실 구분",
                 "평촌역\n 경기 안양시 동안구 흥안대로493번길 52\n 070-8836-1496\n " +
                         "평일 17:00 - 01:00 월요일 17:00 - 01:00 매월 첫째주 월요일 휴무 토요일 17:00 - 01:00 일요일 휴무\n 남/녀 화장실 구분\n"
 
@@ -692,27 +692,27 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList4_6 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_6_1_beer,
                 "화화담", "#남/녀 화장실 구분",
                 "한대앞역\n 경기 안산시 상록구 본삼로 17\n 070-8831-8178\n " +
                         "매일 17:00 - 01:00 일요일 휴무\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_6_2_beer,
                 "안주가", "#남/녀 화장실 구분",
                 "한대앞역\n 경기 안산시 상록구 화랑로 534\n 070-8719-0105\n " +
                         "매일 17:30 - 01:00 일요일 휴무 둘째, 넷째 주 월요일 휴무\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_6_3_beer,
                 "랜돌프비어 안산중앙역점", "#남/녀 화장실 구분",
                 "중앙역\n 경기 안산시 단원구 고잔1길 40\n 031-410-2540\n " +
                         "매일 17:00 - 03:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.four_6_4_beer,
                 "호맥 안산중앙점", "#남/녀 화장실 구분",
                 "중앙역\n 경기 안산시 단원구 고잔1길 63\n 031-485-5050\n " +
                         "매일 17:00 - 03:00\n 남/녀 화장실 구분\n"
@@ -720,159 +720,31 @@ class F_Beer_view : AppCompatActivity() {
             )
         )
 
-        
-        
-        val itemList5_1 = listOf<Image>(
-            Image(
-                R.mipmap.ic_launcher,
-                "푸지스", "#남/녀 화장실 구분",
-                "방화\n 서울 강서구 방화대로47가길 41 방화대로 47가길 41 1층 상가 107호\n 02-2666-8966\n " +
-                        "금요일 20:00~03:00\n 남/녀 화장실 구분\n"
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "경성주막", "#남/녀 화장실 구분",
-                "송정\n 서울 강서구 송정로 60 2층\n 010-8844-8958\n " +
-                        "매일 17:00~05:00\n 남/녀 화장실 구분\n"
 
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "은하호프", "#남/녀 화장실 구분",
-                "화곡\n서울 강서구 강서로33길 9 1층\n 02-2601-3322\n " +
-                        "매일 17:00~02:00\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "J BAR", "#남/녀 화장실 구분",
-                "까치산\n 서울 강서구 곰달래로 125 지하 1층\n 010-5545-6867\n " +
-                        "매일 07:00~04:00 365일\n 남/녀 화장실 구분\n"
-
-            )
-        )
-
-
-        val itemList5_2 = listOf<Image>(
-            Image(
-                R.mipmap.ic_launcher,
-                "오지상노카에루", "#남/녀 화장실 구분",
-                "목동\n 서울 양천구 신정중앙로 76\n 02-2603-2277\n " +
-                        "매일 18:00~02:00 일요일 휴무\n 남/녀 화장실 구분\n"
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "몰리노 와인바", "#남/녀 화장실 구분",
-                "영등포구청\n 서울 영등포구 국회대로34길 14 2층\n 02-2676-1204\n " +
-                        "매일 18:30~03:00\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "탭퍼블릭", "#남/녀 화장실 구분",
-                "여의도\n 서울 영등포구 의사당대로 83 오투타워 2층\n 02-785-7588\n " +
-                        "평일 11:00~24:00\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "도쿄술집", "#남/녀 화장실 구분",
-                "공덕\n 서울 마포구 마포대로 92 공덕해링턴스퀘어 B동 1층 8호\n 02-2197-1771\n " +
-                        "매일 18:00~05:00\n 남/녀 화장실 구분\n"
-
-            )
-        )
-
-        val itemList5_3 = listOf<Image>(
-            Image(
-                R.mipmap.ic_launcher,
-                "BRAVO", "#남/녀 화장실 구분",
-                "충정로\n 서울 서대문구 충정로4길 22-4 1층\n 02-393-1588\n " +
-                        "평일 16:00~01:00\n 남/녀 화장실 구분\n"
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "켄켄", "#남/녀 화장실 구분",
-                "광화문\n 서울 중구 무교로 19 더익스체인지서울몰\n 02-752-7730\n " +
-                        "평일 11:30~15:00\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "장프리고", "#남/녀 화장실 구분",
-                "동대문역사문화공원\n 서울 중구 퇴계로62길 9-8\n 02-2275-1933\n " +
-                        "일요일 휴무\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "용용선생", "#남/녀 화장실 구분",
-                "왕십리\n 서울 성동구 마조로3가길 15\n 02-2295-5269\n " +
-                        "매일 17:00~05:00\n 남/녀 화장실 구분\n"
-
-            )
-        )
-        val itemList5_4 = listOf<Image>(
-            Image(
-                R.mipmap.ic_launcher,
-                "역전할머니맥주", "#남/녀 화장실 구분",
-                "답십리\n 서울 성동구 용답19길 15-1\n 정보없음\n " +
-                        "매일 16:00~06:00\n 남/녀 화장실 구분\n"
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "예원곱창막창", "#남/녀 화장실 구분",
-                "군자\n 서울 광진구 능동로36길 49\n 02-2201-6646\n " +
-                        "매일 18:00~01:30\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "헤븐스키", "#남/녀 화장실 구분",
-                "천호역\n 서울 강동구 천호대로157길 18 원방빌딩\n 02-474-9633\n " +
-                        "평일 18:00~05:00\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "닥터플라토", "#남/녀 화장실 구분",
-                "방이역\n 서울 송파구 양재대로71길 9 1층\n 02-418-2478\n " +
-                        "매일 10:30~02:00\n 남/녀 화장실 구분\n"
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "동촌 보리밥과 돈까스", "#남/녀 화장실 구분",
-                "마천\n 서울 송파구 거마로 22\n 02-401-2797\n " +
-                        "매일 11:00~23:00\n 남/녀 화장실 구분\n"
-            )
-        )
-
-        
-        
 
         val itemList7_1 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_1_1_beer,
                 "스튜디오레이크", "#남/녀 화장실 구분",
                 "가산디지털단지역\n 서울 금천구 디지털로 210\n 010-2520-9864\n " +
                         "월, 토요일 18:00 - 00:00 화~목요일 18:00 - 00:30 금요일 18:00 - 01:00 일요일 휴무\n 남/녀 화장실 구분\n"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_1_2_beer,
                 "비어마켓낭만가", "#남/녀 화장실 구분",
                 "광명사거리역\n 경기 광명시 오리로985번길 1\n 010-7163-2154\n " +
                         "매일 17:00 - 04:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_1_3_beer,
                 "아맛나슈퍼 광명사거리점", "#남/녀 화장실 구분",
                 "광명사거리역\n 경기 광명시 오리로985번길 6\n 02-2066-3684\n " +
                         "매일 17:00 - 05:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_1_4_beer,
                 "프렌밀리", "#남/녀 화장실 구분",
                 "장승배기역\n 서울 동작구 양녕로 271\n 010-3200-4660\n " +
                         "일~목요일 18:00 - 01:00 금~토요일 18:00 - 02:00\n 남/녀 화장실 구분\n"
@@ -882,27 +754,27 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList7_2 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_2_1_beer,
                 "신사펍", "#남/녀 화장실 구분",
                 "이수역\n 서울 동작구 동작대로 129\n 010-4849-1571\n " +
                         "매일 18:00 - 02:00\n 남/녀 화장실 구분\n"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_2_2_beer,
                 "하얀집호프", "#남/녀 화장실 구분",
                 "고속터미널역\n 서울 서초구 신반포로 189\n 02-594-9719\n " +
                         "평일 15:30 - 01:00, 토요일 15:30 - 01:00, 일요일 휴무\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_2_3_beer,
                 "모보 바", "#남/녀 화장실 구분",
                 "고속터미널역\n 서울 서초구 신반포로 176\n 02-6282-6739\n " +
                         "매일 18:00 - 01:00\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_2_4_beer,
                 "보테가 라운지", "#남/녀 화장실 구분",
                 "청담역\n 서울 강남구 도산대로 502\n 02-3446-5555\n " +
                         "월~목요일 20:00 - 02:00 금~토요일 20:00 - 04:00 일요일 휴무\n 남/녀 화장실 구분\n"
@@ -912,27 +784,27 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList7_3 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_3_1_beer,
                 "어메이징브루잉컴퍼니", "#남/녀 화장실 구분",
                 "뚝섬역\n 서울 성동구 성수일로4길 4\n 02-465-5208\n " +
                         "평일 18:00 - 01:00 토요일 16:00 - 01:00 일요일 16:00 - 24:00\n 남/녀 화장실 구분\n"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_3_2_beer,
                 "MIXX LOUNGE BAR", "#남/녀 화장실 구분",
                 "건대입구역\n 서울 광진구 동일로24길 102\n 02-498-8259\n " +
                         "매일 18:00 - 04:00 연중무휴\n 남/녀 화장실 구분\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_3_3_beer,
                 "일레븐 라운지", "#남/녀 화장실 구분 #장애인 편의시설",
                 "건대입구역\n 서울 광진구 동일로 172\n 02-498-2211\n " +
                         "매일 18:00 - 02:00 매일 18:00 - 01:00 금요일 20:00 - 02:00 토요일 20:00 - 02:00\n 남/녀 화장실 구분\n 장애인 편의시설\n"
 
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.seven_3_4_beer,
                 "포차다락", "#남/녀 화장실 구분",
                 "사가정역\n 서울 중랑구 면목로 336\n 010-4165-2314\n " +
                         "일~목요일 18:00 - 05:00 금,토 요일 아침 6시까지 영업\n 남/녀 화장실 구분\n"
@@ -940,57 +812,27 @@ class F_Beer_view : AppCompatActivity() {
             )
         )
 
-        val itemList7_4 = listOf<Image>(
-            Image(
-                R.mipmap.ic_launcher,
-                "라온", "#남/녀 화장실 구분",
-                "태릉입구역\n 서울 중랑구 동일로 932\n 02-3296-0045\n " +
-                        "매일 18:00 - 02:00\n 남/녀 화장실 구분\n"
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "하토상의술방", "#남/녀 화장실 구분",
-                "노원역\n 서울 노원구 상계로3길 10\n 02-938-2252\n " +
-                        "매일 16:30 - 02:30\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "시오코", "#남/녀 화장실 구분",
-                "노원역\n 서울 노원구 상계로5길 26\n 02-936-5001\n " +
-                        "매일 17:00 - 04:00\n 남/녀 화장실 구분\n"
-
-            ),
-            Image(
-                R.mipmap.ic_launcher,
-                "시골막걸리", "#남/녀 화장실 구분",
-                "수락산역\n 서울 노원구 동일로 1530\n 02-931-9080\n " +
-                        "매일 15:30 - 01:30 일요일12시마감\n 남/녀 화장실 구분\n"
-
-            )
-        )
-
         val itemList6_1 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_1_1_beer,
                 "맥주창고","#남/녀 화장실 구분",
                 "봉화산\n 서울 중랑구 신내로 225 디아뜨갤러리\n 070-4641-6480\n" +
                         "매일 17:00~04:00 연중무휴\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_1_2_beer,
                 "어류겐","#남/녀 화장실 구분",
                 "봉화산 \n 서울 중랑구 신내로 225 디아뜨갤러리\n 02-3421-5092\n" +
                         "토요일 18:00 - 04:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_1_3_beer,
                 "바뱅이","#남/녀 화장실 구분",
                 "태릉입구\n 서울 노원구 화랑로 415\n 02-971-4920\n" +
                         "평일 17:00 - 03:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_1_4_beer,
                 "아도겐","#남/녀 화장실 구분",
                 "석계\n 서울 성북구 화랑로42길 50\n 02-966-5079\n " +
                         "매일 17:00 - 06:00\n 남/녀 화장실 구분"
@@ -998,25 +840,25 @@ class F_Beer_view : AppCompatActivity() {
         )
         val itemList6_2 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_2_1_beer,
                 "세븐나잇치킨","#남/녀 화장실 구분",
                 "서울 성북구 화랑로32나길 5\n 02-969-1230\n " +
                         "평일 17:00~02:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_2_2_beer,
                 "다락","#남/녀 화장실 구분",
                 "안암\n 서울 성북구 고려대로 95\n 070-4175-5532\n " +
                         "매일 18:00~02:00 일요일 휴무\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_2_3_beer,
                 "설맥 동묘점","#남/녀 화장실 구분",
                 "창신\n 서울 종로구 지봉로 82\n 02-757-1515\n" +
                         " 매일 17:00~02:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_2_4_beer,
                 "좌절금지","#남/녀 화장실 구분",
                 "동묘앞\n 서울 종로구 종로52길 52 2층\n 02-741-9503\n " +
                         "정보없음\n 남/녀 화장실 구분"
@@ -1027,25 +869,25 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList6_3 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_3_1_beer,
                 "100코달리","#남/녀 화장실 구분",
                 "신당\n 서울 중구 다산로38길 11 지상1층\n 010-2235-6774\n " +
                         "토요일 18:00~05:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_3_2_beer,
                 "노메","#남/녀 화장실 구분",
                 "약수 \n 서울 중구 다산로 114-12 1층\n 02-2231-5561\n" +
                         "평일 11:00~02:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_3_3_beer,
                 "더방갈로","#남/녀 화장실 구분",
                 "이태원\n 서울 용산구 이태원로27가길 10\n 02-793-2344\n" +
                         "목요일 18:00~03:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_3_4_beer,
                 "브롱스 공덕점","#남/녀 화장실 구분",
                 "공덕\n 서울 마포구 도화길 42-1\n 02-702-1039\n" +
                         "매일 17:00~02:00\n 남/녀 화장실 구분"
@@ -1054,25 +896,25 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList6_4 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_4_1_beer,
                 "사심가득","#남/녀 화장실 구분",
                 "대흥\n 서울 마포구 백범로24길 11-3\n 070-4047-4444\n" +
                         "매일 11:00~24:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_4_2_beer,
                 "1943 홍대점","#남/녀 화장실 구분",
                 "상수\n 서울 마포구 잔다리로 8-6\n 010-5552-4626\n" +
                         "매일 17:00~05:00 연중무휴\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_4_3_beer,
                 "너랑나랑호프","#남/녀 화장실 구분",
                 "망원\n 서울 마포구 월드컵로 61\n 010-4422-5157\n" +
                         "토요일 16:30~02:00 월요일 휴무(합정점은 정상영업)\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_4_4_beer,
                 "미나미","#남/녀 화장실 구분",
                 "디지털미디어시티\n 서울 마포구 월드컵북로48길 8\n 010-7160-5115\n " +
                         "매일 17:00~03:00\n 남/녀 화장실 구분"
@@ -1081,64 +923,94 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList6_5 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_5_1_beer,
                 "빠담","#남/녀 화장실 구분",
                 "새절\n 서울 은평구 응암로11길 9 1층 빠담\n 010-8251-0018\n "
                         + "매일 17:30~04:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_5_2_beer,
                 "배키","#남/녀 화장실 구분",
                 "응암\n 서울 은평구 진흥로 21 다인빌딩\n 02-353-9992\n" +
                         "매일 17:00~05:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_5_3_beer,
                 "연어가게","#남/녀 화장실 구분",
                 "연신내\n 서울 은평구 연서로27길 8-8 1층\n 02-384-3459\n" +
                         "매일 18:00~02:00 월요일 휴무\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.six_5_4_beer,
                 "술집타디스","#남/녀 화장실 구분",
                 "불광\n 서울 은평구 불광로 44-2 1층\n 02-385-1979\n" +
                         "목요일 18:00~02:00\n 남/녀 화장실 구분"
             )
         )
 
+        val itemList7_4 = listOf<Image>(
+            Image(
+                R.mipmap.seven_4_1_beer,
+                "라온", "#남/녀 화장실 구분",
+                "태릉입구역\n 서울 중랑구 동일로 932\n 02-3296-0045\n " +
+                        "매일 18:00 - 02:00\n 남/녀 화장실 구분\n"
+            ),
+            Image(
+                R.mipmap.seven_4_2_beer,
+                "하토상의술방", "#남/녀 화장실 구분",
+                "노원역\n 서울 노원구 상계로3길 10\n 02-938-2252\n " +
+                        "매일 16:30 - 02:30\n 남/녀 화장실 구분\n"
+
+            ),
+            Image(
+                R.mipmap.seven_4_3_beer,
+                "시오코", "#남/녀 화장실 구분",
+                "노원역\n 서울 노원구 상계로5길 26\n 02-936-5001\n " +
+                        "매일 17:00 - 04:00\n 남/녀 화장실 구분\n"
+
+            ),
+            Image(
+                R.mipmap.seven_4_4_beer,
+                "시골막걸리", "#남/녀 화장실 구분",
+                "수락산역\n 서울 노원구 동일로 1530\n 02-931-9080\n " +
+                        "매일 15:30 - 01:30 일요일12시마감\n 남/녀 화장실 구분\n"
+
+            )
+        )
+
         val itemList8_1 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.eight_1_1_beer,
                 "역전할머니맥주","#남녀공용",
                 "천호\n 서울 강동구 천호대로157길 37 1층 1호, 2호\n 02-484-2579\n "
                         + "정보 없음\n 외부, 남녀공용, 한칸"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.eight_1_2_beer,
                 "만국미식회","#남/녀 화장실 구분",
                 "천호\n 서울 강동구 천호대로157길 18 원방빌딩 지하 1층 만국미식회\n 070-8828-9798\n" +
                         "매일 16:00 - 04:00(금토요일은 05:00)\n 남/녀 화장실 구분, 내부"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.eight_1_3_beer,
                 "금복주류","#남/녀 화장실 구분",
                 "가락시장\n 서울 송파구 양재대로62길 48\n 02-448-9777\n" +
                         "매일 17:00 - 03:00(금토요일은 05:00)\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.eight_1_4_beer,
                 "더블룸","#남/녀 화장실 구분",
                 "문정\n 서울 송파구 법원로 114 엠스테이트 A동 119,120호\n 02-2283-1012\n" +
                         "평일 08:00 - 02:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.eight_1_5_beer,
                 "더냄비","#남/녀 화장실 구분",
                 "수진\n 경기 성남시 중원구 광명로 89 1층 153호 센트럴 푸르지오 시티\n 010-8950-6006\n"
                         + "매일 17:00 - 04:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.eight_1_6_beer,
                 "대반전","#남녀공용",
                 "모란\n 경기 성남시 중원구 광명로 33-1 1층 대반전\n 031-758-2778\n" +
                         "매일 17:00 - 04:00 일요일 휴무\n 남녀공용, 내부"
@@ -1148,25 +1020,25 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList9_1 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_1_1_beer,
                 "롯데마트 김포공항점","#남/녀 화장실 구분",
                 "김포공항역\n 서울 강서구 하늘길 77 롯데백화점김포공항점 B2\n 02-6124-2500\n" +
                         "매일 10:00 - 23:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_1_2_beer,
                 "노브랜드 강서마곡점","#정보없음",
                 "마곡나루역\n 서울 강서구 마곡서로 101\n 02-2667-0151\n" +
                         "매일 11:00 - 22:00 매주 2,4째주 일요일 휴무\n 정보없음"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_1_3_beer,
                 "이마트 가양점","#남/녀 화장실 구분 #장애인편의시설",
                 "증미역\n 서울 강서구 양천로 559 가양이마트\n 02-2101-1234\n" +
                         "일요일 휴무\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_1_4_beer,
                 "홈플러스 가양점","#정보없음",
                 "가양역\n 서울 강서구 양천로 431 홈플러스가양점\n 02-2063-2080\n" +
                         "매일 10:00 - 24:00\n 정보없음"
@@ -1177,25 +1049,25 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList9_2 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_2_1_beer,
                 "노브랜드 영등포여의도점","#남/녀 화장실 구분",
                 "국회의사당역\n 서울 영등포구 의사당대로 8 삼환까뮤빌딩 1층\n 02-786-7668\n" +
                         "매일 11:00 - 22:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_2_2_beer,
                 "하나로마트 흑석점","#정보없음",
                 "흑석역\n 서울 동작구 서달로 150\n 02-813-7013\n" +
                         "매일 09:30 - 22:00\n 정보없음"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_2_3_beer,
                 "이마트 여의도점","#남/녀 화장실 구분 #장애인편의시설",
                 "샛강역\n 서울 영등포구 여의동로3길 10 여의도자이\n 02-2280-1234\n" +
                         "일요일 휴무\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_2_4_beer,
                 "하나로마트 국회점","#정보없음",
                 "국회의사당역\n 서울 영등포구 의사당대로 1 (여의도동, 국회후생관 1층)\n 02-769-1882\n" +
                         "매일 09:00 - 19:00\n 정보없음"
@@ -1206,25 +1078,25 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList9_3 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_3_1_beer,
                 "현대백화점 무역센터점","#남/녀 화장실 구분",
                 "봉은사\n 서울 강남구 테헤란로 517\n 02-552-2233\n" +
                         "매일 10:30~20:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_3_2_beer,
                 "노브랜드 강남터미널점","#정보없음",
                 "고속버스터미널역\n 서울 서초구 신반포로 194 지하층 대형1호\n 02-537-8491\n" +
                         "매일 10:00 - 22:00 매주 2,4째주 일요일 휴무\n 정보없음"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_3_3_beer,
                 "노브랜드 서울서초점","#남/녀 화장실 구분",
                 "신논현역\n 서울 서초구 서초대로73길 7\n 02-537-5827\n" +
                         "매일 11:00 - 22:00 매주 2,4째주 일요일 휴무\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_3_4_beer,
                 "롯데마트 잠실점","#정보없음",
                 "석촌고분역\n 서울 송파구 올림픽로 240\n 02-411-8025\n" +
                         "매일 10:00 - 23:00\n 정보없음"
@@ -1235,25 +1107,25 @@ class F_Beer_view : AppCompatActivity() {
 
         val itemList9_4 = listOf<Image>(
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_4_1_beer,
                 "이자카야 오모","#남/녀 화장실 구분",
                 "송파나루역\n 서울 송파구 올림픽로32길 52\n 02-425-1325\n" +
                         "매일 17:00 - 02:00 일요일 휴무\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_4_2_beer,
                 "케그바이케그","#남/녀 화장실 구분",
                 "석촌역\n 서울 송파구 백제고분로45길 40\n 02-423-0033\n" +
                         "매일 17:00 - 01:00월요일 휴무\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_4_3_beer,
                 "란슬롯","#남/녀 화장실 구분",
                 "석촌역\n 서울 송파구 오금로16길 10-6\n 02-423-5927\n" +
                         "평일 17:00 - 01:00 주말 17:00 - 02:00\n 남/녀 화장실 구분"
             ),
             Image(
-                R.mipmap.ic_launcher,
+                R.mipmap.nine_4_4_beer,
                 "매드나이트","#남/녀 화장실 구분",
                 "석촌역\n 서울 송파구 송파대로49길 52\n 010-8824-4741\n" +
                         "매일 18:00 - 05:00\n 남/녀 화장실 구분"
