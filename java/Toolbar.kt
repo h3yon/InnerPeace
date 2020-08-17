@@ -23,6 +23,11 @@ class Toolbar : AppCompatActivity() {
                 finish()
                 return true
             }
+            
+            R.id.mypage_button->{
+                startActivity(Intent(this,MyPage::class.java))
+            }
+            
         }
         return super.onOptionsItemSelected(item)
     }
