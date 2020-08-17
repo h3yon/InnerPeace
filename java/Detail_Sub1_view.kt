@@ -3,7 +3,7 @@ package com.project.innerpeace
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.*
-import android.widget.TextView
+import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_detail_sub_view.*
@@ -12,169 +12,144 @@ class Detail_Sub1_view : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_sub_view)
-
+        setContentView(R.layout.activity_search_view)
         setSupportActionBar(findViewById(R.id.my_toolbar))
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         toolbar_title.setText("1 호선")
 
-        val sub1List = ArrayList<SubForList>()
+        val search = findViewById<SearchView>(R.id.searchView)
+        search.background = null
+        val listView = findViewById<ListView>(R.id.searchList)
 
-        sub1List.add(SubForList("소요산"))
-        sub1List.add(SubForList("동두천"))
-        sub1List.add(SubForList("보산"))
-        sub1List.add(SubForList("동두천 중앙"))
-        sub1List.add(SubForList("지행"))
-        sub1List.add(SubForList("덕정"))
-        sub1List.add(SubForList("덕계"))
-        sub1List.add(SubForList("양주"))
-        sub1List.add(SubForList("녹양"))
-        sub1List.add(SubForList("가능"))
-        sub1List.add(SubForList("의정부"))
-        sub1List.add(SubForList("회룡"))
-        sub1List.add(SubForList("망월사"))
-        sub1List.add(SubForList("도봉산"))
-        sub1List.add(SubForList("도봉"))
-        sub1List.add(SubForList("방학"))
-        sub1List.add(SubForList("창동"))
-        sub1List.add(SubForList("녹천"))
-        sub1List.add(SubForList("월계"))
-        sub1List.add(SubForList("광운대"))
-        sub1List.add(SubForList("석계"))
-        sub1List.add(SubForList("신이문"))
-        sub1List.add(SubForList("외대앞"))
-        sub1List.add(SubForList("회기"))
-        sub1List.add(SubForList("청량리"))
-        sub1List.add(SubForList("제기동"))
-        sub1List.add(SubForList("신설동"))
-        sub1List.add(SubForList("동묘앞"))
-        sub1List.add(SubForList("동대문"))
-        sub1List.add(SubForList("종로 5가"))
-        sub1List.add(SubForList("종로 3가"))
-        sub1List.add(SubForList("광화문"))
-        sub1List.add(SubForList("종각"))
-        sub1List.add(SubForList("시청"))
-        sub1List.add(SubForList("을지로 입구"))
-        sub1List.add(SubForList("서울역"))
-        sub1List.add(SubForList("남영"))
-        sub1List.add(SubForList("용산"))
-        sub1List.add(SubForList("노량진"))
-        sub1List.add(SubForList("대방"))
-        sub1List.add(SubForList("신길"))
-        sub1List.add(SubForList("영등포"))
-        sub1List.add(SubForList("신도림"))
-        sub1List.add(SubForList("구로"))
-        sub1List.add(SubForList("구일"))
-        sub1List.add(SubForList("개봉"))
-        sub1List.add(SubForList("오류동"))
-        sub1List.add(SubForList("온수"))
-        sub1List.add(SubForList("역곡"))
-        sub1List.add(SubForList("소사"))
-        sub1List.add(SubForList("부천"))
-        sub1List.add(SubForList("중동"))
-        sub1List.add(SubForList("송내"))
-        sub1List.add(SubForList("부개"))
-        sub1List.add(SubForList("부평"))
-        sub1List.add(SubForList("백운"))
-        sub1List.add(SubForList("동암"))
-        sub1List.add(SubForList("간석"))
-        sub1List.add(SubForList("주안"))
-        sub1List.add(SubForList("도화"))
-        sub1List.add(SubForList("제물포"))
-        sub1List.add(SubForList("도원"))
-        sub1List.add(SubForList("동인천"))
-        sub1List.add(SubForList("인천"))
-        sub1List.add(SubForList("가산 디지털단지"))
-        sub1List.add(SubForList("독산"))
-        sub1List.add(SubForList("금천구청"))
-        sub1List.add(SubForList("광명"))
-        sub1List.add(SubForList("석수"))
-        sub1List.add(SubForList("관악"))
-        sub1List.add(SubForList("안양"))
-        sub1List.add(SubForList("명학"))
-        sub1List.add(SubForList("금정"))
-        sub1List.add(SubForList("군포"))
-        sub1List.add(SubForList("당정"))
-        sub1List.add(SubForList("의왕"))
-        sub1List.add(SubForList("성균관대"))
-        sub1List.add(SubForList("화서"))
-        sub1List.add(SubForList("수원"))
-        sub1List.add(SubForList("세류"))
-        sub1List.add(SubForList("병점"))
-        sub1List.add(SubForList("서동탄"))
-        sub1List.add(SubForList("세마"))
-        sub1List.add(SubForList("오산대"))
-        sub1List.add(SubForList("오산"))
-        sub1List.add(SubForList("진위"))
-        sub1List.add(SubForList("송탄"))
-        sub1List.add(SubForList("서정리"))
-        sub1List.add(SubForList("지제"))
-        sub1List.add(SubForList("평택"))
-        sub1List.add(SubForList("성환"))
-        sub1List.add(SubForList("직산"))
-        sub1List.add(SubForList("두정"))
-        sub1List.add(SubForList("천안"))
-        sub1List.add(SubForList("봉명"))
-        sub1List.add(SubForList("쌍용"))
-        sub1List.add(SubForList("아산"))
-        sub1List.add(SubForList("배방"))
-        sub1List.add(SubForList("온양 온천"))
-        sub1List.add(SubForList("신창"))
+        val sub1List = arrayListOf<String>()
+        sub1List.add(("소요산(외부)"))
+        sub1List.add(("동두천(외부)"))
+        sub1List.add(("보산(외부)"))
+        sub1List.add(("동두천 중앙(외부)"))
+        sub1List.add(("지행(외부)"))
+        sub1List.add(("덕정(외부)"))
+        sub1List.add(("덕계(외부)"))
+        sub1List.add(("양주(외부)"))
+        sub1List.add(("녹양(외부)"))
+        sub1List.add(("가능(외부)"))
+        sub1List.add(("의정부(외부)"))
+        sub1List.add(("회룡(외부)"))
+        sub1List.add(("망월사(내외부)"))
+        sub1List.add(("도봉산(외부)_1, 7"))
+        sub1List.add(("도봉(내외부)"))
+        sub1List.add(("방학(내부)"))
+        sub1List.add(("창동(없음)_1, 4"))
+        sub1List.add(("녹천(내부)"))
+        sub1List.add(("월계(내외부)"))
+        sub1List.add(("광운대(외부)"))
+        sub1List.add(("석계(내부)_1, 6"))
+        sub1List.add(("신이문(내외부)"))
+        sub1List.add(("외대앞(내부)"))
+        sub1List.add(("회기(외부)"))
+        sub1List.add(("청량리(외부)"))
+        sub1List.add(("제기동(외부)"))
+        sub1List.add(("신설동(외부)_1, 2"))
+        sub1List.add(("동묘앞(내외부)_1, 6"))
+        sub1List.add(("동대문(외부)_1, 4"))
+        sub1List.add(("종로 5가(외부)"))
+        sub1List.add(("종로 3가(내외부)_1, 3, 5"))
+        sub1List.add(("종각(외부)"))
+        sub1List.add(("시청(외부)_1, 2"))
+        sub1List.add(("서울역(외부)_1, 4"))
+        sub1List.add(("남영(내부)"))
+        sub1List.add(("용산(내외부)"))
+        sub1List.add(("노량진(외부)_1, 9"))
+        sub1List.add(("대방(내부)"))
+        sub1List.add(("신길(외부)_1, 5"))
+        sub1List.add(("영등포(내외부)"))
+        sub1List.add(("신도림(내부)_1, 2"))
+        sub1List.add(("구로(내외부)"))
+        sub1List.add(("구일(내외부)"))
+        sub1List.add(("개봉(외부)"))
+        sub1List.add(("오류동(외부)"))
+        sub1List.add(("온수(외부)_1, 7"))
+        sub1List.add(("역곡(외부)"))
+        sub1List.add(("소사(외부)"))
+        sub1List.add(("부천(외부)"))
+        sub1List.add(("중동(외부)"))
+        sub1List.add(("송내(외부)"))
+        sub1List.add(("부개(외부)"))
+        sub1List.add(("부평(내외부)"))
+        sub1List.add(("백운(외부)"))
+        sub1List.add(("동암(외부)"))
+        sub1List.add(("간석(내부)"))
+        sub1List.add(("주안(내외부)"))
+        sub1List.add(("도화(외부)"))
+        sub1List.add(("제물포(외부)"))
+        sub1List.add(("도원(내부)"))
+        sub1List.add(("동인천(외부)"))
+        sub1List.add(("인천(외부)"))
+        sub1List.add(("가산 디지털단지(외부)_1, 7"))
+        sub1List.add(("독산(외부)"))
+        sub1List.add(("금천구청(외부)"))
+        sub1List.add(("광명(외부)"))
+        sub1List.add(("석수(내외부)"))
+        sub1List.add(("관악(내외부)"))
+        sub1List.add(("안양(외부)"))
+        sub1List.add(("명학(내외부)"))
+        sub1List.add(("금정(외부)_1, 4"))
+        sub1List.add(("군포(외부)"))
+        sub1List.add(("당정(외부)"))
+        sub1List.add(("의왕(외부)"))
+        sub1List.add(("성균관대(외부)"))
+        sub1List.add(("화서(내부)"))
+        sub1List.add(("수원(내외부)"))
+        sub1List.add(("세류(외부)"))
+        sub1List.add(("병점(외부)"))
+        sub1List.add(("서동탄(외부)"))
+        sub1List.add(("세마(외부)"))
+        sub1List.add(("오산대(외부)"))
+        sub1List.add(("오산(외부)"))
+        sub1List.add(("진위(외부)"))
+        sub1List.add(("송탄(외부)"))
+        sub1List.add(("서정리(외부)"))
+        sub1List.add(("지제(외부)"))
+        sub1List.add(("평택(외부)"))
+        sub1List.add(("성환(외부)"))
+        sub1List.add(("직산(외부)"))
+        sub1List.add(("두정(외부)"))
+        sub1List.add(("천안(외부)"))
+        sub1List.add(("봉명(외부)"))
+        sub1List.add(("쌍용(외부)"))
+        sub1List.add(("아산(외부)"))
+        sub1List.add(("배방(외부)"))
+        sub1List.add(("온양 온천(외부)"))
+        sub1List.add(("신창(외부)"))
 
 
-        val adapter = DetailSubAdapter(sub1List, LayoutInflater.from(this@Detail_Sub1_view))
-        sub_recycler_view.adapter = adapter
-        sub_recycler_view.layoutManager = LinearLayoutManager(this@Detail_Sub1_view)
 
-    }
+        val adapter: ArrayAdapter<String> = ArrayAdapter(
+            this, R.layout.simple_list_item_1, sub1List
+        )
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-        when (id) {
-            android.R.id.home -> {
-                finish()
-                return true
+        listView.adapter = adapter
+//        names.setTextColor(Color.BLACK)
+
+        search.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(p0: String): Boolean {
+                search.clearFocus()
+                if (sub1List.contains(p0)) {
+                    adapter.filter.filter(p0)
+                } else {
+                    Toast.makeText(applicationContext, "Item not found", Toast.LENGTH_LONG).show()
+                }
+                return false
             }
-        }
-        return super.onOptionsItemSelected(item)
-    }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
-    }
-}
+            override fun onQueryTextChange(p0: String): Boolean {
+                adapter.filter.filter(p0)
+                return false
+            }
 
-class SubForList(val subwayText: String) {
-
-}
-
-class DetailSubAdapter(
-    val subList: ArrayList<SubForList>,
-    val inflater: LayoutInflater
-) : RecyclerView.Adapter<DetailSubAdapter.ViewHolder>() {
-    class ViewHolder(subwayView: View) : RecyclerView.ViewHolder(subwayView) {
-        val subwayText: TextView
-
-        init {
-            subwayText = subwayView.findViewById(R.id.subway_text)
-        }
-    }
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = inflater.inflate(R.layout.detail_sub_item, parent, false)
-        return ViewHolder(view)
-    }
-
-    override fun getItemCount(): Int {
-        return subList.size
-    }
-
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.subwayText.setText(subList.get(position).subwayText)
+        })
     }
 }
