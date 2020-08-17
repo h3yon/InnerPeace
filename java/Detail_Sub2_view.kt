@@ -106,3 +106,5 @@ class Detail_Sub2_view : AppCompatActivity() {
         })
     }
 }
+
+
