@@ -111,6 +111,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name=".MyPage"/>
+      
+        
 
         <activity android:name=".Detail_Sub3_view"></activity>
 
@@ -129,6 +133,8 @@
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="iqnigx1xkk" />
+        
+        
 
 
 
