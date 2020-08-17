@@ -14,6 +14,12 @@ class Login_view : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
+        
+        
+        Login_in_button.setOnClickListener {
+            startActivity(Intent(this, GPS_view::class.java))
+            finish()
+        }
 
 
     }
