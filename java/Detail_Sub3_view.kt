@@ -6,7 +6,7 @@ import android.view.*
 import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.activity_detail_sub_view.*
+import kotlinx.android.synthetic.main.subway_search_view.*
 
 class Detail_Sub3_view : AppCompatActivity() {
 
@@ -97,4 +97,3 @@ class Detail_Sub3_view : AppCompatActivity() {
         })
     }
 }
-
