@@ -153,3 +153,4 @@ class Detail_Sub1_view : AppCompatActivity() {
         })
     }
 }
+
