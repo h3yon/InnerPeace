@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.subway_search_view.*
 
-class Detail_Sub9_view : AppCompatActivity() {
+class Detail_Sub8_view : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,55 +19,34 @@ class Detail_Sub9_view : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
-        toolbar_title.setText("9 호선")
+        toolbar_title.setText("8 호선")
 
         val search = findViewById<SearchView>(R.id.searchView)
         search.background = null
         val listView = findViewById<ListView>(R.id.searchList)
 
-        val sub9List = arrayListOf<String>()
-        sub9List.add(("개화(외부)"))
-        sub9List.add(("김포공항(내외부)_5, 9"))
-        sub9List.add(("공항시장(외부)"))
-        sub9List.add(("신방화(외부)"))
-        sub9List.add(("마곡나루(내외부)"))
-        sub9List.add(("양천향교(외부)"))
-        sub9List.add(("가양(외부)"))
-        sub9List.add(("증미(외부)"))
-        sub9List.add(("등촌(외부)"))
-        sub9List.add(("염창(외부)"))
-        sub9List.add(("신목동(외부)"))
-        sub9List.add(("선유도(외부)"))
-        sub9List.add(("당산(내부)_2, 9"))
-        sub9List.add(("국회의사당(내외부)"))
-        sub9List.add(("여의도(내외부)_5, 9"))
-        sub9List.add(("샛강(외부)"))
-        sub9List.add(("노량진(내외부)_1, 9"))
-        sub9List.add(("노들(외부)"))
-        sub9List.add(("흑석(외부)"))
-        sub9List.add(("동작(내외부)_4, 9"))
-        sub9List.add(("구반포(외부)"))
-        sub9List.add(("신반포(외부)"))
-        sub9List.add(("고속터미널(내외부)_3, 7, 9"))
-        sub9List.add(("사평(외부)"))
-        sub9List.add(("신논현(외부)"))
-        sub9List.add(("언주(외부)"))
-        sub9List.add(("선정릉(외부)"))
-        sub9List.add(("삼성중앙(외부)"))
-        sub9List.add(("봉은사(외부)"))
-        sub9List.add(("종합운동장(외부)_2, 9"))
-        sub9List.add(("삼전(외부)"))
-        sub9List.add(("석촌고분(외부)"))
-        sub9List.add(("석촌(내외부)_8, 9"))
-        sub9List.add(("송파나루(외부)"))
-        sub9List.add(("한성백제(외부)"))
-        sub9List.add(("올림픽 공원(내외부)_5, 9"))
-        sub9List.add(("둔촌오륜(외부)"))
-        sub9List.add(("중앙 보훈병원(외부)"))
+        val sub8List = arrayListOf<String>()
+        sub8List.add(("암사(외부)"))
+        sub8List.add(("천호(외부)_5,8"))
+        sub8List.add(("강동구청(외부)"))
+        sub8List.add(("몽촌포성(외부)"))
+        sub8List.add(("잠실(외부)_2,8"))
+        sub8List.add(("석촌(외부)_8,9"))
+        sub8List.add(("송파(외부)"))
+        sub8List.add(("가락시장(외부)_3,8"))
+        sub8List.add(("문정(외부)"))
+        sub8List.add(("장지(외부)"))
+        sub8List.add(("복정(외부)_8,분당"))
+        sub8List.add(("산성(외부)"))
+        sub8List.add(("남한산성 입구(외부)"))
+        sub8List.add(("단대오거리(외부)"))
+        sub8List.add(("신흥(외부)"))
+        sub8List.add(("수진(외부)"))
+        sub8List.add(("모란(외부)_8,분당"))
 
 
         val adapter: ArrayAdapter<String> = ArrayAdapter(
-            this, R.layout.simple_list_item_1, sub9List
+            this, R.layout.simple_list_item_1, sub8List
         )
 
         listView.adapter = adapter
@@ -76,7 +55,7 @@ class Detail_Sub9_view : AppCompatActivity() {
         search.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(p0: String): Boolean {
                 search.clearFocus()
-                if (sub9List.contains(p0)) {
+                if (sub8List.contains(p0)) {
                     adapter.filter.filter(p0)
                 } else {
                     Toast.makeText(applicationContext, "Item not found", Toast.LENGTH_LONG).show()
