@@ -2,98 +2,105 @@ package com.project.innerpeace
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuItem
+import android.view.*
+import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_detail_sub_view.*
 
 class Detail_Sub7_view : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_sub_view)
-
+        setContentView(R.layout.activity_search_view)
         setSupportActionBar(findViewById(R.id.my_toolbar))
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         toolbar_title.setText("7 호선")
 
-        val sub7List = ArrayList<SubForList>()
+        val search = findViewById<SearchView>(R.id.searchView)
+        search.background = null
+        val listView = findViewById<ListView>(R.id.searchList)
 
-        sub7List.add(SubForList("부평구청"))
-        sub7List.add(SubForList("굴포펀"))
-        sub7List.add(SubForList("삼산체육관"))
-        sub7List.add(SubForList("상동"))
-        sub7List.add(SubForList("부천 시청"))
-        sub7List.add(SubForList("신중동"))
-        sub7List.add(SubForList("춘의"))
-        sub7List.add(SubForList("부천 종합운동장"))
-        sub7List.add(SubForList("까치울"))
-        sub7List.add(SubForList("온수"))
-        sub7List.add(SubForList("천왕"))
-        sub7List.add(SubForList("광명 사거리"))
-        sub7List.add(SubForList("철산"))
-        sub7List.add(SubForList("가산 디지털단지"))
-        sub7List.add(SubForList("남구로"))
-        sub7List.add(SubForList("대림"))
-        sub7List.add(SubForList("신풍"))
-        sub7List.add(SubForList("보라매"))
-        sub7List.add(SubForList("신대방 삼거리"))
-        sub7List.add(SubForList("장승배기"))
-        sub7List.add(SubForList("상도"))
-        sub7List.add(SubForList("숭실대 입구"))
-        sub7List.add(SubForList("남성"))
-        sub7List.add(SubForList("총신대 입구(이수)"))
-        sub7List.add(SubForList("내방"))
-        sub7List.add(SubForList("고속 터미널"))
-        sub7List.add(SubForList("반포"))
-        sub7List.add(SubForList("논현"))
-        sub7List.add(SubForList("학동"))
-        sub7List.add(SubForList("강남구청"))
-        sub7List.add(SubForList("청담"))
-        sub7List.add(SubForList("뚝섬 유원지"))
-        sub7List.add(SubForList("건대입구"))
-        sub7List.add(SubForList("어린이 대공원"))
-        sub7List.add(SubForList("군자"))
-        sub7List.add(SubForList("중곡"))
-        sub7List.add(SubForList("용마산"))
-        sub7List.add(SubForList("사가정"))
-        sub7List.add(SubForList("면목"))
-        sub7List.add(SubForList("상봉"))
-        sub7List.add(SubForList("중화"))
-        sub7List.add(SubForList("먹골"))
-        sub7List.add(SubForList("태릉입구"))
-        sub7List.add(SubForList("공릉"))
-        sub7List.add(SubForList("하계"))
-        sub7List.add(SubForList("중계"))
-        sub7List.add(SubForList("노원"))
-        sub7List.add(SubForList("마들"))
-        sub7List.add(SubForList("수락산"))
-        sub7List.add(SubForList("도봉산"))
-        sub7List.add(SubForList("장암"))
+        val sub7List = arrayListOf<String>()
+        sub7List.add(("부평구청(내외부)"))
+        sub7List.add(("굴포펀(외부)"))
+        sub7List.add(("삼산체육관(외부)"))
+        sub7List.add(("상동(외부)"))
+        sub7List.add(("부천 시청(외부)"))
+        sub7List.add(("신중동(외부)"))
+        sub7List.add(("춘의(외부)"))
+        sub7List.add(("부천 종합운동장(내외부)"))
+        sub7List.add(("까치울(외부)"))
+        sub7List.add(("온수(외부)_1, 7"))
+        sub7List.add(("천왕(외부)"))
+        sub7List.add(("광명 사거리(외부)"))
+        sub7List.add(("철산(외부)"))
+        sub7List.add(("가산 디지털단지(외부)_1, 7"))
+        sub7List.add(("남구로(외부)"))
+        sub7List.add(("대림(외부)_2, 7"))
+        sub7List.add(("신풍(외부)"))
+        sub7List.add(("보라매(외부)"))
+        sub7List.add(("신대방 삼거리(외부)"))
+        sub7List.add(("장승배기(외부)"))
+        sub7List.add(("상도(외부)"))
+        sub7List.add(("숭실대 입구(외부)"))
+        sub7List.add(("남성(외부)"))
+        sub7List.add(("총신대 입구(이수)(내외부)_4, 7"))
+        sub7List.add(("내방(외부)"))
+        sub7List.add(("고속 터미널(외부)_3, 7, 9"))
+        sub7List.add(("반포(외부)"))
+        sub7List.add(("논현(외부)"))
+        sub7List.add(("학동(외부)"))
+        sub7List.add(("강남구청(외부)"))
+        sub7List.add(("청담(외부)"))
+        sub7List.add(("뚝섬 유원지(내부)"))
+        sub7List.add(("건대입구(내부)_2, 7"))
+        sub7List.add(("어린이 대공원(외부)"))
+        sub7List.add(("군자(외부)_5, 7"))
+        sub7List.add(("중곡(외부)"))
+        sub7List.add(("용마산(외부)"))
+        sub7List.add(("사가정(외부)"))
+        sub7List.add(("면목(외부)"))
+        sub7List.add(("상봉(내부)"))
+        sub7List.add(("중화(외부)"))
+        sub7List.add(("먹골(외부)"))
+        sub7List.add(("태릉입구(외부)_6, 7"))
+        sub7List.add(("공릉(외부)"))
+        sub7List.add(("하계(외부)"))
+        sub7List.add(("중계(외부)"))
+        sub7List.add(("노원(외부)_4, 7"))
+        sub7List.add(("마들(외부)"))
+        sub7List.add(("수락산(외부)"))
+        sub7List.add(("도봉산(내외부)_1, 7"))
+        sub7List.add(("장암(외부)"))
 
-        val adapter = DetailSubAdapter(sub7List, LayoutInflater.from(this@Detail_Sub7_view))
-        sub_recycler_view.adapter = adapter
-        sub_recycler_view.layoutManager = LinearLayoutManager(this@Detail_Sub7_view)
-    }
+        val adapter: ArrayAdapter<String> = ArrayAdapter(
+            this, R.layout.simple_list_item_1, sub7List
+        )
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-        when (id) {
-            android.R.id.home -> {
-                finish()
-                return true
+        listView.adapter = adapter
+//        names.setTextColor(Color.BLACK)
+
+        search.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(p0: String): Boolean {
+                search.clearFocus()
+                if (sub7List.contains(p0)) {
+                    adapter.filter.filter(p0)
+                } else {
+                    Toast.makeText(applicationContext, "Item not found", Toast.LENGTH_LONG).show()
+                }
+                return false
             }
-        }
-        return super.onOptionsItemSelected(item)
-    }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
+            override fun onQueryTextChange(p0: String): Boolean {
+                adapter.filter.filter(p0)
+                return false
+            }
+
+        })
     }
 }
