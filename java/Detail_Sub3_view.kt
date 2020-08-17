@@ -12,7 +12,7 @@ class Detail_Sub3_view : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_search_view)
+        setContentView(R.layout.subway_search_view)
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
