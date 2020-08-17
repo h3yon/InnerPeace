@@ -444,6 +444,60 @@ class E_Cafe_view : AppCompatActivity() {
                         "토요일 10:00~21:30\n 남/녀 화장실 구분"
             )
         )
+        
+        val itemList8_1 = listOf<Image>(
+            Image(
+                R.mipmap.ic_launcher,
+                "tiili(틸리)","#외부",
+                "천호\n 서울 강동구 천호옛12길 15 1층\n 010-6652-6066\n "
+                        + "주말 12:00 - 21:00 평일 휴무는 인스타그램 참조 필요\n 외부"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "티에드","#남/녀 화장실 구분",
+                "천호\n 서울 강동구 천호대로157길 52 2층, 3층\n 02-475-0011\n" +
+                        "매일 11:30 - 01:00\n 남/녀 화장실 구분, 내부"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "피치그레이","#남/녀 화장실 구분",
+                "석촌\n 서울 송파구 가락로21길 14-1 1층 피치그레이\n 02-412-2726\n" +
+                        "매일 11:00 - 21:00 연중무휴\n 남/녀 화장실 구분, 외부"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "페이지","#남/녀 화장실 구분",
+                "문정\n 서울 송파구 동남로4길 35 자양빌딩 101호\n 02-402-3702\n" +
+                        "매일 10:00 - 22:30\n 남/녀 화장실 구분"
+            )
+        )
+
+        val itemList8_2 = listOf<Image>(
+            Image(
+                R.mipmap.ic_launcher,
+                "TENNOTE","#남녀공용",
+                "복정\n 경기 성남시 수정구 위례서일로1길 21-10\n 031-721-2110\n "
+                        + "매일 10:00 - 22:00\n 남녀공용, 내부"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "소녀다방","#남녀공용",
+                "복정\n 경기 성남시 수정구 위례서일로3길 14-5 1층 소녀다방\n 정보없음\n" +
+                        "매일 11:00 - 21:00 연중무휴\n 남녀공용, 내부"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "예나파이","#남/녀 화장실 구분 #장애인 편의시설",
+                "신흥\n 경기 성남시 수정구 공원로 322 신동아파라디움\n 031-733-0419\n" +
+                        "매일 08:00 - 22:00 일요일 휴무\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "코지하우스","#남/녀 화장실 구분",
+                "모란\n 경기 성남시 중원구 광명로 4 아트팰리스 상가 2층\n 031-757-3175\n" +
+                        "매일 11:00 - 23:00(일요일 07:00)\n 남/녀 화장실 구분"
+            )
+        )
 
         val recyclerView = findViewById<RecyclerView>(R.id.item_recyclerView)
         recyclerView.layoutManager = manager
