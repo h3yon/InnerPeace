@@ -269,6 +269,85 @@ class C_Mart_view : AppCompatActivity() {
 
             )
         )
+        
+        val itemList6_1 = listOf<Image>(
+            Image(
+                R.mipmap.ic_launcher,
+                "이마트 목동점","#남/녀 화장실 구분 #장애인편의시설",
+                "태릉입구\n 서울 중랑구 동일로 932 묵동자이2단지\n 02-2083-1234\n" +
+                        "일요일 휴무\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "홈플러스","#남/녀 화장실 구분",
+                "신내\n 서울 중랑구 신내로 201 홈플러스서울신내점\n 02-2024-8000\n" +
+                        "매일 10:00~24:00\n 남/녀 화장실 구분"
+            )
+
+
+        )
+        val itemList6_2 = listOf<Image>(
+            Image(
+                R.mipmap.ic_launcher,
+                "홈플러스 월곡점\n","#남/녀 화장실 구분 #장애인편의시설",
+                "월곡\n 서울 성북구 화랑로 76 홈플러스월곡점\n 02-3669-8000\n"
+                        +"매일 10:00~24:00\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "이마트","#남/녀 화장실 구분 #장애인편의시설",
+                "동묘앞\t서울 중구 청계천로 400 이마트청계천점\t02-2290-1234\n" +
+                         "일요일 휴무\n 남/녀 화장실 구분"
+            )
+
+
+        )
+
+        val itemList6_3 = listOf<Image>(
+            Image(
+                R.mipmap.ic_launcher,
+                "이마트","#남/녀 화장실 구분 #장애인편의시설",
+                "공덕\n 서울 용산구 한강대로23길 55 이마트용산점\n 02-2012-1234\n " +
+                        "일요일 휴무\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "롯데프리미엄 푸드마켓","#남/녀 화장실 구분",
+                "공덕\n 서울 마포구 마포대로 109\n 02-706-5601\n" +
+                          "매일 10:00~23:00\n 남/녀 화장실 구분"
+            )
+        )
+
+        val itemList6_4 = listOf<Image>(
+            Image(
+                R.mipmap.ic_launcher,
+                "홈플러스 합정점","#남/녀 화장실 구분",
+                "합정\n 서울 마포구 양화로 45 메세나폴리스\n 02-6938-8800\n" +
+                        "매일 10:00~24:00\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "홈플러스 월드컵점","#남/녀 화장실 구분 #장애인편의시설",
+                "월드컵경기장\n 서울 마포구 월드컵로 240 월드컵주경기장\n 02-312-2080\n" +
+                        "매일 10:00~24:00\n 남/녀 화장실 구분"
+            )
+
+        )
+
+        val itemList6_5 = listOf<Image>(
+            Image(
+                R.mipmap.ic_launcher,
+                "이마트 ","#남/녀 화장실 구분 #장애인편의시설",
+                "응암\n 서울 은평구 은평로 111 이마트은평점\n 02-380-1234\n" +
+                        "일요일 휴무\n 남/녀 화장실 구분"
+            ),
+            Image(
+                R.mipmap.ic_launcher,
+                "킴스클럽nc백화점 ","#남/녀 화장실 구분 #장애인편의시설",
+                "불광\n 서울 은평구 불광로 20\n 02-3417-2001\n" +
+                        "정보없음\n 남/녀 화장실 구분"
+            )
+        )
 
         val recyclerView = findViewById<RecyclerView>(R.id.item_recyclerView)
         recyclerView.layoutManager = manager
