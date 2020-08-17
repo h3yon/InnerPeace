@@ -2,96 +2,107 @@ package com.project.innerpeace
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuItem
+import android.view.*
+import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_detail_sub_view.*
 
 class Detail_Sub5_view : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_sub_view)
+        setContentView(R.layout.activity_search_view)
         setSupportActionBar(findViewById(R.id.my_toolbar))
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         toolbar_title.setText("5 호선")
 
-        val sub5List = ArrayList<SubForList>()
-        sub5List.add(SubForList("방화"))
-        sub5List.add(SubForList("개화산"))
-        sub5List.add(SubForList("김포공항"))
-        sub5List.add(SubForList("송정"))
-        sub5List.add(SubForList("마곡"))
-        sub5List.add(SubForList("발산"))
-        sub5List.add(SubForList("우장산"))
-        sub5List.add(SubForList("화곡"))
-        sub5List.add(SubForList("까치산"))
-        sub5List.add(SubForList("신정"))
-        sub5List.add(SubForList("목동"))
-        sub5List.add(SubForList("오목교"))
-        sub5List.add(SubForList("양평"))
-        sub5List.add(SubForList("영등포구청"))
-        sub5List.add(SubForList("영등포시장"))
-        sub5List.add(SubForList("신길"))
-        sub5List.add(SubForList("여의도"))
-        sub5List.add(SubForList("여의나루"))
-        sub5List.add(SubForList("마포"))
-        sub5List.add(SubForList("공덕"))
-        sub5List.add(SubForList("애오개"))
-        sub5List.add(SubForList("충정로"))
-        sub5List.add(SubForList("서대문"))
-        sub5List.add(SubForList("광화문"))
-        sub5List.add(SubForList("종로3가"))
-        sub5List.add(SubForList("을지로4가"))
-        sub5List.add(SubForList("동대문역사문화공원"))
-        sub5List.add(SubForList("청구"))
-        sub5List.add(SubForList("신금호"))
-        sub5List.add(SubForList("행당"))
-        sub5List.add(SubForList("왕십리"))
-        sub5List.add(SubForList("마장"))
-        sub5List.add(SubForList("답십리"))
-        sub5List.add(SubForList("장한평"))
-        sub5List.add(SubForList("군자"))
-        sub5List.add(SubForList("아차산"))
-        sub5List.add(SubForList("광나루"))
-        sub5List.add(SubForList("천호"))
-        sub5List.add(SubForList("강동"))
-        sub5List.add(SubForList("길동"))
-        sub5List.add(SubForList("굽은다리"))
-        sub5List.add(SubForList("명일"))
-        sub5List.add(SubForList("고덕"))
-        sub5List.add(SubForList("상일동"))
-        sub5List.add(SubForList("둔촌동"))
-        sub5List.add(SubForList("올림픽공원"))
-        sub5List.add(SubForList("방이"))
-        sub5List.add(SubForList("오금"))
-        sub5List.add(SubForList("개롱"))
-        sub5List.add(SubForList("거여"))
-        sub5List.add(SubForList("마천"))
+        val search = findViewById<SearchView>(R.id.searchView)
+        search.background = null
+        val listView = findViewById<ListView>(R.id.searchList)
 
-        val adapter = DetailSubAdapter(sub5List, LayoutInflater.from(this@Detail_Sub5_view))
-        sub_recycler_view.adapter = adapter
-        sub_recycler_view.layoutManager = LinearLayoutManager(this@Detail_Sub5_view)
-    }
+        val sub5List = arrayListOf<String>()
+        sub5List.add(("방화(외부)"))
+        sub5List.add(("개화산(외부)"))
+        sub5List.add(("김포공항(외부)_5, 9"))
+        sub5List.add(("송정(외부)"))
+        sub5List.add(("마곡(외부)"))
+        sub5List.add(("발산(외부)"))
+        sub5List.add(("우장산(외부)"))
+        sub5List.add(("화곡(외부)"))
+        sub5List.add(("까치산(외부)_2, 5"))
+        sub5List.add(("신정(내부)"))
+        sub5List.add(("목동(외부)"))
+        sub5List.add(("오목교(외부)"))
+        sub5List.add(("양평(내부)"))
+        sub5List.add(("영등포구청(외부)_2, 5"))
+        sub5List.add(("영등포시장(외부)"))
+        sub5List.add(("신길(외부)_1, 5"))
+        sub5List.add(("여의도(외부)_5, 9"))
+        sub5List.add(("여의나루(외부)"))
+        sub5List.add(("마포(외부)"))
+        sub5List.add(("공덕(외부)_5, 6"))
+        sub5List.add(("애오개(외부)"))
+        sub5List.add(("충정로(외부)_2, 5"))
+        sub5List.add(("서대문(외부)"))
+        sub5List.add(("광화문(외부)"))
+        sub5List.add(("종로3가(내부)_1, 3, 5"))
+        sub5List.add(("을지로4가(외부)_2, 5"))
+        sub5List.add(("동대문역사문화공원(외부)_2, 4, 5"))
+        sub5List.add(("청구(외부)_5, 6"))
+        sub5List.add(("신금호(외부)"))
+        sub5List.add(("행당(외부)"))
+        sub5List.add(("왕십리(내외부)_2, 5"))
+        sub5List.add(("마장(외부)"))
+        sub5List.add(("답십리(외부)"))
+        sub5List.add(("장한평(외부)"))
+        sub5List.add(("군자(외부)_5, 7"))
+        sub5List.add(("아차산(외부)"))
+        sub5List.add(("광나루(외부)"))
+        sub5List.add(("천호(외부)_5, 8"))
+        sub5List.add(("강동(외부)"))
+        sub5List.add(("길동(외부)"))
+        sub5List.add(("굽은다리(외부)"))
+        sub5List.add(("명일(외부)"))
+        sub5List.add(("고덕(외부)"))
+        sub5List.add(("상일동(외부)"))
+        sub5List.add(("미사(내외부)"))
+        sub5List.add(("하남풍산(외부)"))
+        sub5List.add(("둔촌동(외부)"))
+        sub5List.add(("올림픽공원(외부)_5, 9"))
+        sub5List.add(("방이(외부)"))
+        sub5List.add(("오금(내부)_3, 5"))
+        sub5List.add(("개롱(외부)"))
+        sub5List.add(("거여(외부)"))
+        sub5List.add(("마천(외부)"))
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-        when (id) {
-            android.R.id.home -> {
-                finish()
-                return true
+        val adapter: ArrayAdapter<String> = ArrayAdapter(
+            this, R.layout.simple_list_item_1, sub5List
+        )
+
+        listView.adapter = adapter
+//        names.setTextColor(Color.BLACK)
+
+        search.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(p0: String): Boolean {
+                search.clearFocus()
+                if (sub5List.contains(p0)) {
+                    adapter.filter.filter(p0)
+                } else {
+                    Toast.makeText(applicationContext, "Item not found", Toast.LENGTH_LONG).show()
+                }
+                return false
             }
-        }
-        return super.onOptionsItemSelected(item)
-    }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
+            override fun onQueryTextChange(p0: String): Boolean {
+                adapter.filter.filter(p0)
+                return false
+            }
+
+        })
     }
 }
