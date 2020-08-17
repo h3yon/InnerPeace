@@ -2,86 +2,96 @@ package com.project.innerpeace
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuItem
+import android.view.*
+import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_detail_sub_view.*
 
 class Detail_Sub6_view : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_sub_view)
-
+        setContentView(R.layout.activity_search_view)
         setSupportActionBar(findViewById(R.id.my_toolbar))
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         toolbar_title.setText("6 호선")
 
-        val sub6List = ArrayList<SubForList>()
+        val search = findViewById<SearchView>(R.id.searchView)
+        search.background = null
+        val listView = findViewById<ListView>(R.id.searchList)
 
-        sub6List.add(SubForList("응암"))
-        sub6List.add(SubForList("역촌"))
-        sub6List.add(SubForList("불광"))
-        sub6List.add(SubForList("독바위"))
-        sub6List.add(SubForList("연신내"))
-        sub6List.add(SubForList("구산"))
-        sub6List.add(SubForList("새절"))
-        sub6List.add(SubForList("증산"))
-        sub6List.add(SubForList("디지털 미디어시티"))
-        sub6List.add(SubForList("월드컵경기장"))
-        sub6List.add(SubForList("마포구청"))
-        sub6List.add(SubForList("망원"))
-        sub6List.add(SubForList("합정"))
-        sub6List.add(SubForList("성수"))
-        sub6List.add(SubForList("광흥창"))
-        sub6List.add(SubForList("대흥"))
-        sub6List.add(SubForList("공덕"))
-        sub6List.add(SubForList("효창 공원앞"))
-        sub6List.add(SubForList("삼각지"))
-        sub6List.add(SubForList("녹사평"))
-        sub6List.add(SubForList("이태원"))
-        sub6List.add(SubForList("한강진"))
-        sub6List.add(SubForList("버티고개"))
-        sub6List.add(SubForList("약수"))
-        sub6List.add(SubForList("청구"))
-        sub6List.add(SubForList("신당"))
-        sub6List.add(SubForList("동묘앞"))
-        sub6List.add(SubForList("창신"))
-        sub6List.add(SubForList("보문"))
-        sub6List.add(SubForList("안암"))
-        sub6List.add(SubForList("고려대"))
-        sub6List.add(SubForList("월곡"))
-        sub6List.add(SubForList("상월곡"))
-        sub6List.add(SubForList("돌곶이"))
-        sub6List.add(SubForList("석계"))
-        sub6List.add(SubForList("태릉입구"))
-        sub6List.add(SubForList("화랑대"))
-        sub6List.add(SubForList("봉화산"))
-        sub6List.add(SubForList("신내"))
+        val sub6List = arrayListOf<String>()
+        sub6List.add(("응암(외부)"))
+        sub6List.add(("역촌(외부)"))
+        sub6List.add(("불광(외부)_3,6"))
+        sub6List.add(("독바위(외부)"))
+        sub6List.add(("연신내(외부)_3,6"))
+        sub6List.add(("구산(외부)"))
+        sub6List.add(("새절(외부)"))
+        sub6List.add(("증산(외부)"))
+        sub6List.add(("디지털 미디어시티(내/외부)_6,공항,경의중앙"))
+        sub6List.add(("월드컵경기장(내/외부)"))
+        sub6List.add(("마포구청(외부)"))
+        sub6List.add(("망원(외부)"))
+        sub6List.add(("합정(외부)_2,6"))
+        sub6List.add(("성수(외부)"))
+        sub6List.add(("광흥창(외부)"))
+        sub6List.add(("대흥(외부)"))
+        sub6List.add(("공덕(내부)_5,6,공항,경의중앙"))
+        sub6List.add(("효창 공원앞(외부)_6,경의중앙"))
+        sub6List.add(("삼각지(내부)_4,6"))
+        sub6List.add(("녹사평(외부)"))
+        sub6List.add(("이태원(외부)"))
+        sub6List.add(("한강진(외부)"))
+        sub6List.add(("버티고개(외부)"))
+        sub6List.add(("약수(외부)_3,6"))
+        sub6List.add(("청구(외부)_5,6"))
+        sub6List.add(("신당(외부)_2,6"))
+        sub6List.add(("동묘앞(외부)_1,6"))
+        sub6List.add(("창신(내부)"))
+        sub6List.add(("보문(외부)_6,우이신설"))
+        sub6List.add(("안암(내/외부)"))
+        sub6List.add(("고려대(내부)"))
+        sub6List.add(("월곡(외부)"))
+        sub6List.add(("상월곡(외부)"))
+        sub6List.add(("돌곶이(외부)"))
+        sub6List.add(("석계(내/외부)_1,6"))
+        sub6List.add(("태릉입구(외부)_6,7"))
+        sub6List.add(("화랑대(외부)"))
+        sub6List.add(("봉화산(외부)"))
+        sub6List.add(("신내(외부)_6,경춘"))
 
-        val adapter = DetailSubAdapter(sub6List, LayoutInflater.from(this@Detail_Sub6_view))
-        sub_recycler_view.adapter = adapter
-        sub_recycler_view.layoutManager = LinearLayoutManager(this@Detail_Sub6_view)
-    }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-        when (id) {
-            android.R.id.home -> {
-                finish()
-                return true
+
+
+        val adapter: ArrayAdapter<String> = ArrayAdapter(
+            this, R.layout.simple_list_item_1, sub6List
+        )
+
+        listView.adapter = adapter
+//        names.setTextColor(Color.BLACK)
+
+        search.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(p0: String): Boolean {
+                search.clearFocus()
+                if (sub6List.contains(p0)) {
+                    adapter.filter.filter(p0)
+                } else {
+                    Toast.makeText(applicationContext, "Item not found", Toast.LENGTH_LONG).show()
+                }
+                return false
             }
-        }
-        return super.onOptionsItemSelected(item)
-    }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
+            override fun onQueryTextChange(p0: String): Boolean {
+                adapter.filter.filter(p0)
+                return false
+            }
+
+        })
     }
 }
