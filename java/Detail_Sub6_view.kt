@@ -6,13 +6,13 @@ import android.view.*
 import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.activity_detail_sub_view.*
+import kotlinx.android.synthetic.main.subway_search_view.*
 
 class Detail_Sub6_view : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_search_view)
+        setContentView(R.layout.subway_search_view)
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
