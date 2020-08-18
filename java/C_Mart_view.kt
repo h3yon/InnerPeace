@@ -26,9 +26,7 @@ class C_Mart_view : AppCompatActivity() {
 
         val manager = GridLayoutManager(this@C_Mart_view, 2)
         
-        //      GPS_view에서의 사용자 입력 값을 inputString 변수에 전달받음
-        val inputString = intent.getStringExtra("input")
-        
+               
          val itemList1_1 = listOf<Image>(
             Image(
                 R.mipmap.one_1_1_mart,
@@ -952,6 +950,90 @@ class C_Mart_view : AppCompatActivity() {
                         "매일 10:00 - 23:00\n 정보없음"
             )
         )
+        
+        var itemList = listOf<Image>()
+        
+         //      GPS_view에서의 사용자 입력 값을 inputString 변수에 전달받음
+        val inputString = intent.getStringExtra("input")
+        
+        //4호선
+        if(inputString =="당고개"|| inputString =="상계" ||inputString=="노원"
+            ||inputString =="창동"||inputString =="쌍문"||inputString =="수유"||inputString =="미아"
+            ||inputString =="미아사거리"){
+            itemList = itemList4_1
+        }
+        else if(inputString =="길음"|| inputString =="성신여대입구"
+            ||inputString=="한성대입구"||inputString =="혜화"
+            ||inputString =="동대문"|| inputString =="동대문역사문화공원"
+            ||inputString=="충무로"||inputString =="명동"||inputString =="회현"
+            ||inputString =="서울역"||inputString =="숙대입구"){
+            itemList = itemList4_2
+        }
+        else if(inputString =="삼각지"|| inputString =="신용산"
+            ||inputString=="이촌"||inputString =="동작"
+            || inputString =="총신대입구(이수)"|| inputString =="사당"
+            ||inputString =="남태령"|| inputString =="선바위"
+            ||inputString=="경마공원"||inputString =="대공원"
+            || inputString =="대공원"|| inputString =="과천"
+            ||inputString =="정부과천청사"||inputString =="인덕원"){
+            itemList = itemList4_3
+        } 
+//6호선        
+
+        if(inputString =="신내"|| inputString =="봉화산" ||inputString=="화랑대"
+            ||inputString =="태릉입구"||inputString =="석계"){
+            itemList = itemList6_1
+        }
+        else if(inputString =="돌곶이"|| inputString =="상월곡" ||inputString=="월곡"
+            ||inputString =="고려대"||inputString =="안암"||inputString =="보문"
+            ||inputString =="창신"||inputString =="동묘앞"){
+            itemList = itemList6_2
+        }
+        else if(inputString =="신당"|| inputString =="청구" ||inputString=="약수"
+            ||inputString =="버티고개"||inputString =="한강진"||inputString =="이태원"
+            ||inputString =="녹사평"||inputString =="삼각지"||inputString =="효창공원앞"
+            ||inputString =="공덕"){
+            itemList = itemList6_3
+        }
+        else if(inputString =="대흥"|| inputString =="광흥창" ||inputString=="성수"
+            ||inputString =="합정"||inputString =="망원"||inputString =="마포구청"
+            ||inputString =="월드컵경기장"||inputString =="디지털미디어시티"){
+            itemList = itemList6_4
+        }
+        else if(inputString =="증산"|| inputString =="새절" ||inputString=="구산"
+            ||inputString =="연신내"||inputString =="독바위"||inputString =="불광"
+            ||inputString =="역촌"||inputString =="응암"){
+            itemList = itemList6_5
+        }
+
+
+
+
+//7호선
+        if(inputString =="천왕"|| inputString =="광명사거리역" ||inputString=="가산디지털단지"
+            ||inputString =="남구로"||inputString =="대림"||inputString =="신풍"||inputString =="보라매"
+            ||inputString =="신대방 삼거리"||inputString =="장승배기"||inputString =="상도"||
+            inputString =="숭실대 입구"||inputString =="남성"||
+            inputString =="총신대입구(이수)"||inputString =="내방"){
+            itemList = itemList7_1
+        }
+        else if(inputString =="고속 터미널"
+            ||inputString =="반포"||inputString =="논현"||inputString =="학동"||
+            inputString =="강남구청"||inputString =="청담"||inputString =="뚝섬 유원지"||inputString =="건대입구"||inputString =="어린이 대공원"
+            ||inputString =="군자"||inputString =="중곡"||inputString =="용마산"
+            ||inputString =="사가정"||inputString =="면목"){
+            itemList = itemList7_2
+        }
+        else if(inputString =="상봉"||inputString =="중화"||inputString =="먹골"
+            ||inputString =="태릉입구"||inputString =="공릉"||inputString =="하계"
+            ||inputString =="중계"||inputString =="노원"||inputString =="마들"
+            ||inputString =="수락산"||inputString =="도봉산"||inputString =="장암"){
+            itemList = itemList7_3
+        }
+
+        
+        
+        
 
 
         val recyclerView = findViewById<RecyclerView>(R.id.item_recyclerView)
