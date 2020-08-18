@@ -1186,7 +1186,7 @@ class F_Beer_view : AppCompatActivity() {
             itemList = itemList1_7
         }
         
-        //        2호선
+//        2호선
 
         if (inputString == "까치산" || inputString == "신정네거리" || inputString == "양천구청" || inputString == "도림천"
             || inputString == "신도림" || inputString == "대림" || inputString == "구로디지털단지" || inputString == "신대방"
@@ -1359,7 +1359,20 @@ class F_Beer_view : AppCompatActivity() {
             itemList = itemList7_4
         }
         
-        //        9호선
+        
+//8호선
+        if (inputString == "암사" || inputString == "천호" || inputString == "강동구청"
+            || inputString == "몽촌포성" || inputString == "잠실" || inputString == "석촌"
+            || inputString == "송파" || inputString == "가락시장" || inputString == "문정"
+            || inputString == "장지" || inputString == "복정" || inputString == "산성"
+            || inputString == "남한산성입구" || inputString == "단대오거리" || inputString == "신흥"
+            || inputString == "수진" || inputString == "모란"
+        ) {
+            itemList = itemList8_1
+        }
+        
+        
+//        9호선
 
         if (inputString == "개화" || inputString == "김포공항" || inputString == "공항시장" || inputString == "신방화"
             || inputString == "마곡나루" || inputString == "양천향교" || inputString == "가양" || inputString == "증미"
