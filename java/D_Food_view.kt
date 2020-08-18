@@ -1540,6 +1540,28 @@ class D_Food_view : AppCompatActivity() {
             ||inputString =="정왕"||inputString =="오이도"){
             itemList = itemList4_6
         }
+        
+        //5호선
+        if (inputString == "방화"|| inputString == "개화산"|| inputString == "김포공항"|| inputString == "송정"||
+            inputString == "마곡"|| inputString == "발산"|| inputString == "우장산"|| inputString == "화곡"|| inputString == "까치산") {
+            itemList = itemList5_1
+        }
+        else if (inputString == "신정"|| inputString == "목동"|| inputString == "오목교"|| inputString == "양평"||
+            inputString == "영등포구청"|| inputString == "영등포시장"|| inputString == "신길"|| inputString == "여의도"||
+            inputString == "여의나루샛강"|| inputString == "마포"|| inputString == "공덕") {
+            itemList = itemList5_2
+        }
+        else if (inputString == "애오개"|| inputString == "충정로"|| inputString == "서대문"|| inputString == "광화문"||
+            inputString == "종로3가"|| inputString == "을지로4가"|| inputString == "동대문역사문화공원"|| inputString == "청구"||
+            inputString == "신금호"|| inputString == "행당"|| inputString == "왕십리") {
+            itemList = itemList5_3
+        }
+        else if (inputString == "마장"|| inputString == "답십리"|| inputString == "장한평"|| inputString == "군자"||
+            inputString == "아차산"|| inputString == "광나루"|| inputString == "천호"|| inputString == "강동"||
+            inputString == "둔촌동"|| inputString == "올림픽공원"|| inputString == "방이"|| inputString == "오금"||
+            inputString == "개롱"|| inputString == "거여"|| inputString == "마천") {
+            itemList = itemList5_4
+        }
 
 //6호선
 
@@ -1583,12 +1605,12 @@ class D_Food_view : AppCompatActivity() {
             inputString =="숭실대 입구"||inputString =="남성"){
             itemList = itemList7_1
         }
-        else if(inputString =="총신대입구(이수)"||inputString =="내방"||inputString =="고속터미널"
+        else if(inputString =="총신대입구(이수)"||inputString =="내방"||inputString =="고속 터미널"
                 ||inputString =="반포"||inputString =="논현"||inputString =="학동"||
                 inputString =="강남구청"||inputString =="청담"){
             itemList = itemList7_2
         }
-        else if(inputString =="뚝섬유원지"||inputString =="건대입구"||inputString =="어린이대공원"
+        else if(inputString =="뚝섬 유원지"||inputString =="건대입구"||inputString =="어린이 대공원"
                 ||inputString =="군자"||inputString =="중곡"||inputString =="용마산"
                 ||inputString =="사가정"||inputString =="면목"){
             itemList = itemList7_3
