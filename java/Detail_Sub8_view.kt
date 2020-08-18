@@ -38,7 +38,7 @@ class Detail_Sub8_view : AppCompatActivity() {
         sub8List.add(("장지(외부)"))
         sub8List.add(("복정(외부)_8,분당"))
         sub8List.add(("산성(외부)"))
-        sub8List.add(("남한산성 입구(외부)"))
+        sub8List.add(("남한산성입구(외부)"))
         sub8List.add(("단대오거리(외부)"))
         sub8List.add(("신흥(외부)"))
         sub8List.add(("수진(외부)"))
