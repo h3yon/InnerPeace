@@ -48,7 +48,7 @@
             android:layout_width="280dp"
             android:layout_height="33dp"
             android:background="@drawable/border_layout"
-            android:hint="ex) 왕십리역"
+            android:hint="ex) 왕십리"
             android:padding="7dp"
             android:textColor="#2B2B2B"
             android:textColorHint="#888888"
