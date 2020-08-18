@@ -1075,6 +1075,17 @@ class C_Mart_view : AppCompatActivity() {
             itemList = itemList7_3
         }
 
+//8호선
+        if (inputString == "암사" || inputString == "천호" || inputString == "강동구청"
+            || inputString == "몽촌포성" || inputString == "잠실" || inputString == "석촌"
+            || inputString == "송파" || inputString == "가락시장" || inputString == "문정"
+            || inputString == "장지" || inputString == "복정" || inputString == "산성"
+            || inputString == "남한산성입구" || inputString == "단대오거리" || inputString == "신흥"
+            || inputString == "수진" || inputString == "모란"
+        ) {
+            itemList = itemList8_1
+        }
+
         
         
         
