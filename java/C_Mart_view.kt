@@ -756,7 +756,7 @@ class C_Mart_view : AppCompatActivity() {
             Image(
                 R.mipmap.six_2_2_market,
                 "이마트", "#남/녀 화장실 구분 #장애인편의시설",
-                "동묘앞\t서울 중구 청계천로 400 이마트청계천점\t02-2290-1234\n" +
+                "동묘앞\서울 중구 청계천로 400 이마트청계천점\t02-2290-1234\n" +
                         "일요일 휴무\n 남/녀 화장실 구분"
             )
         )
@@ -1121,7 +1121,7 @@ class C_Mart_view : AppCompatActivity() {
         }
         else if(inputString =="고속 터미널"
             ||inputString =="반포"||inputString =="논현"||inputString =="학동"||
-            inputString =="강남구청"||inputString =="청담"||inputString =="뚝섬 유원지"||inputString =="건대입구"||inputString =="어린이 대공원"
+            inputString =="강남구청"||inputString =="청담"||inputString =="뚝섬유원지"||inputString =="건대입구"||inputString =="어린이대공원"
             ||inputString =="군자"||inputString =="중곡"||inputString =="용마산"
             ||inputString =="사가정"||inputString =="면목"){
             itemList = itemList7_2
