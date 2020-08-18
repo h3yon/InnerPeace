@@ -1000,6 +1000,64 @@ class C_Mart_view : AppCompatActivity() {
             itemList = itemList1_6
         }
         
+        //        2호선
+
+        if (inputString == "까치산" || inputString == "신정네거리" || inputString == "양천구청" || inputString == "도림천"
+            || inputString == "신도림" || inputString == "대림" || inputString == "구로디지털단지" || inputString == "신대방"
+            || inputString == "신림"
+        ) {
+            itemList = itemList2_1
+        } else if (inputString == "봉천" || inputString == "서울대입구" || inputString == "낙성대" || inputString == "사당"
+            || inputString == "방배" || inputString == "서초" || inputString == "교대" || inputString == "강남"
+            || inputString == "역삼" || inputString == "선릉"
+        ) {
+            itemList = itemList2_2
+        } else if (inputString == "삼성" || inputString == "종합운동장" || inputString == "잠실새내" || inputString == "잠실"
+            || inputString == "잠실나루" || inputString == "강변" || inputString == "구의" || inputString == "건대입구"
+            || inputString == "성수" || inputString == "용답" || inputString == "신답" || inputString == "용두"
+            || inputString == "신설동" || inputString == "뚝섬"
+        ) {
+            itemList = itemList2_3
+        } else if (inputString == "한양대" || inputString == "왕십리" || inputString == "상왕십리" || inputString == "신당"
+            || inputString == "동대문역사문화공원" || inputString == "을지로4가" || inputString == "을지로3가"
+            || inputString == "을지로입구"
+        ) {
+            itemList = itemList2_4
+        } else if (inputString == "시청" || inputString == "충정로" || inputString == "아현" || inputString == "이대"
+            || inputString == "신촌" || inputString == "홍대입구" || inputString == "합정" || inputString == "당산"
+            || inputString == "영등포구청" || inputString == "문래"
+        ) {
+            itemList = itemList2_5
+        }
+
+//        3호선
+
+        if (inputString == "대화" || inputString == "주엽" || inputString == "정발산" || inputString == "마두"
+            || inputString == "백석" || inputString == "대곡" || inputString == "화정" || inputString == "원당"
+            || inputString == "원흥" || inputString == "삼송" || inputString == "지축" || inputString == "구파발"
+            || inputString == "연신내" || inputString == "불광" || inputString == "녹번"
+        ) {
+            itemList = itemList3_1
+        } else if (inputString == "홍제" || inputString == "무악재" || inputString == "독립문" || inputString == "경복궁" ||
+            inputString == "안국"
+        ) {
+            itemList = itemList3_2
+        } else if (inputString == "종로3가" || inputString == "을지로3가" || inputString == "충무로" ||
+            inputString == "동대입구" || inputString == "약수"
+        ) {
+            itemList = itemList3_3
+        } else if (inputString == "금호" || inputString == "옥수" || inputString == "압구정" ||
+            inputString == "신사" || inputString == "잠원"
+        ) {
+            itemList = itemList3_4
+        } else if (inputString == "고속터미널" || inputString == "교대" || inputString == "남부터미널" ||
+            inputString == "양재" || inputString == "매봉" || inputString == "도곡" || inputString == "대치"
+            || inputString == "학여울" || inputString == "대청" || inputString == "일원" || inputString == "수서"
+            || inputString == "가락시장" || inputString == "경찰병원" || inputString == "오금"
+        ) {
+            itemList = itemList3_5
+        }
+        
         //4호선
         if(inputString =="당고개"|| inputString =="상계" ||inputString=="노원"
             ||inputString =="창동"||inputString =="쌍문"||inputString =="수유"||inputString =="미아"
@@ -1086,11 +1144,29 @@ class C_Mart_view : AppCompatActivity() {
             itemList = itemList8_1
         }
 
-        
-        
-        
+        //        9호선
 
-
+        if (inputString == "개화" || inputString == "김포공항" || inputString == "공항시장" || inputString == "신방화"
+            || inputString == "마곡나루" || inputString == "양천향교" || inputString == "가양" || inputString == "증미"
+            || inputString == "등촌" || inputString == "염창" || inputString == "신목동" || inputString == "선유도"
+            || inputString == "당산"
+        ) {
+            itemList = itemList9_1
+        } else if (inputString == "국회의사당" || inputString == "여의도" || inputString == "샛강" ||
+            inputString == "노량진" || inputString == "노들" || inputString == "흑석" || inputString == "동작"
+            || inputString == "구반포" || inputString == "신반포"
+        ) {
+            itemList = itemList9_2
+        } else if (inputString == "고속터미널" || inputString == "사평" || inputString == "신논현" ||
+            inputString == "언주" || inputString == "선정릉" || inputString == "삼성중앙" || inputString == "봉은사"
+            || inputString == "종합운동장" || inputString == "삼전" || inputString == "석촌고분" || inputString == "석촌" ||
+            inputString == "송파나루" || inputString == "한성백제" || inputString == "올림픽공원" || inputString == "둔촌오륜"
+            || inputString == "중앙보훈병원"
+        ) {
+            itemList = itemList9_3
+        }
+        
+        
         val recyclerView = findViewById<RecyclerView>(R.id.item_recyclerView)
         recyclerView.layoutManager = manager
         recyclerView.setHasFixedSize(true)
