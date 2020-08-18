@@ -36,18 +36,25 @@ open class HomeViewActivity : AppCompatActivity() {
             startActivity(Intent(this@HomeViewActivity, B_Sub_view::class.java))
         }
         cafeToilet.setOnClickListener {
-            startActivity(Intent(this@HomeViewActivity, E_Cafe_view::class.java))
+            val intent = Intent(this@HomeViewActivity, E_Cafe_view::class.java)
+            intent.putExtra("input", inputString)
+            startActivity(intent)
         }
         restaurantToilet.setOnClickListener {
-            startActivity(Intent(this@HomeViewActivity, D_Food_view::class.java))
+            val intent = Intent(this@HomeViewActivity, D_Food_view::class.java)
+            intent.putExtra("input", inputString)
+            startActivity(intent)
         }
         BarToilet.setOnClickListener {
-            startActivity(Intent(this@HomeViewActivity, F_Beer_view::class.java))
+            val intent = Intent(this@HomeViewActivity, F_Beer_view::class.java)
+            intent.putExtra("input", inputString)
+            startActivity(intent)
         }
         MarketToilet.setOnClickListener {
-            startActivity(Intent(this@HomeViewActivity, C_Mart_view::class.java))
+            val intent = Intent(this@HomeViewActivity, C_Mart_view::class.java)
+            intent.putExtra("input", inputString)
+            startActivity(intent)
         }
-
     }
 
     //ToolBar
