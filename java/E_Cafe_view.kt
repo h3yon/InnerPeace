@@ -1304,7 +1304,55 @@ class E_Cafe_view : AppCompatActivity() {
          //      GPS_view에서의 사용자 입력 값을 inputString 변수에 전달받음
         val inputString = intent.getStringExtra("input")
         
-        //4호선
+//1호선
+        if (inputString == "소요산" || inputString == "동두천" || inputString == "보산"
+            || inputString == "동두천중앙" || inputString == "지행" || inputString == "덕정"
+            || inputString == "덕계" || inputString == "양주" || inputString == "녹양"
+            || inputString == "가능" || inputString == "의정부" || inputString == "회룡"
+            || inputString == "망월사" || inputString == "도봉산" || inputString == "도봉") {
+            itemList = itemList1_1
+        } else if (inputString == "방학" || inputString == "창동" || inputString == "녹천"
+            || inputString == "월계" || inputString == "광운대" || inputString == "석계"
+            || inputString == "신이문" || inputString == "외대앞" || inputString == "회기"
+            || inputString == "청량리" || inputString == "제기동" || inputString == "신설동") {
+            itemList = itemList1_2
+        }
+        else if (inputString == "동묘앞" || inputString == "동대문" || inputString == "종로5가"
+            || inputString == "종로3가" || inputString == "종각") {
+            itemList = itemList1_3
+        }
+        else if (inputString == "시청" || inputString == "서울역" || inputString == "남영"
+            || inputString == "용산" || inputString == "노량진" || inputString == "대방"
+            || inputString == "신길" || inputString == "영등포" || inputString == "신도림") {
+            itemList = itemList1_4
+        }
+        else if (inputString == "구로" || inputString == "구일" || inputString == "개봉"
+            || inputString == "오류동" || inputString == "온수" || inputString == "역곡"
+            || inputString == "소사" || inputString == "부천" || inputString == "중동"
+            || inputString == "송내") {
+            itemList = itemList1_5
+        }
+        else if (inputString == "부개" || inputString == "부평"
+            || inputString == "백운" || inputString == "동암" || inputString == "간석"
+            || inputString == "주안" || inputString == "도화" || inputString == "제물포"
+            || inputString == "도원" || inputString == "동인천" || inputString == "인천") {
+            itemList = itemList1_6
+        }
+        else if (inputString == "가산디지털단지" || inputString == "독산" || inputString == "금천구청"
+            || inputString == "광명" || inputString == "석수" || inputString == "관악"
+            || inputString == "안양" || inputString == "명학" || inputString == "금정"
+            || inputString == "군포" || inputString == "당정" || inputString == "의왕"
+            || inputString == "성균관대" || inputString == "화서" || inputString == "수원"
+            || inputString == "주안" || inputString == "도화" || inputString == "제물포"
+            || inputString == "도원" || inputString == "세류" || inputString == "병점"
+            || inputString == "서동탄" || inputString == "세류" || inputString == "병점"
+            || inputString == "도원" || inputString == "세마" || inputString == "오산대"
+            || inputString == "오산") {
+            itemList = itemList1_7
+        }
+        
+        
+//4호선
         if(inputString =="당고개"|| inputString =="상계" ||inputString=="노원"
             ||inputString =="창동"||inputString =="쌍문"||inputString =="수유"||inputString =="미아"
             ||inputString =="미아사거리"){
@@ -1394,6 +1442,19 @@ class E_Cafe_view : AppCompatActivity() {
             ||inputString =="중계"||inputString =="노원"||inputString =="마들"
             ||inputString =="수락산"||inputString =="도봉산"||inputString =="장암"){
             itemList = itemList7_4
+        }
+        
+        
+//8호선
+        if (inputString == "암사" || inputString == "천호" || inputString == "강동구청"
+            || inputString == "몽촌포성" || inputString == "잠실" || inputString == "석촌"
+            || inputString == "송파" || inputString == "가락시장" || inputString == "문정") {
+            itemList = itemList8_1
+        }
+        else if (inputString == "장지" || inputString == "복정" || inputString == "산성"
+            || inputString == "남한산성입구" || inputString == "단대오거리" || inputString == "신흥"
+            || inputString == "수진" || inputString == "모란") {
+            itemList = itemList8_2
         }
         
         
