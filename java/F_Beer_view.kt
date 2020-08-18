@@ -24,7 +24,10 @@ class F_Beer_view : AppCompatActivity() {
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         val manager = GridLayoutManager(this@F_Beer_view, 2)
-
+        
+//      GPS_view에서의 사용자 입력 값을 inputString 변수에 전달받음
+        val inputString = intent.getStringExtra("input")
+        
         val itemList1_1 = listOf<Image>(
             Image(
                 R.mipmap.one_1_1_beer,
