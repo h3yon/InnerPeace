@@ -26,6 +26,9 @@ class D_Food_view : AppCompatActivity() {
 
         val manager = GridLayoutManager(this@D_Food_view, 2)
         
+        //      GPS_view에서의 사용자 입력 값을 inputString 변수에 전달받음
+        val inputString = intent.getStringExtra("input")
+        
                val itemList1_1 = listOf<Image>(
             Image(R.mipmap.one_1_1_food,
                 "소요산신흥", "#남/녀 화장실 구분",
