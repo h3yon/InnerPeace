@@ -545,7 +545,7 @@ class C_Mart_view : AppCompatActivity() {
             Image(
                 R.mipmap.four_3_4_mart,
                 "이마트 이수점", "#남/녀 화장실 구분 #장애인 편의시설",
-                "이수\n 서울 동작구 사당로 300 이수자이\n 02-595-1234\n" +
+                "총신대(이수)\n 서울 동작구 사당로 300 이수자이\n 02-595-1234\n" +
                         "일요일 휴무\n 남/녀 화장실 구분\n 장애인 편의시설\n"
 
             )
@@ -688,7 +688,7 @@ class C_Mart_view : AppCompatActivity() {
             Image(
                 R.mipmap.seven_1_3_mart,
                 "이마트 이수점", "#남/녀 화장실 구분 #장애인 편의시설",
-                "이수\n 서울 동작구 사당로 300 이수자이\n 02-595-1234\n " +
+                "총신대(이수)\n 서울 동작구 사당로 300 이수자이\n 02-595-1234\n " +
                         "일요일 휴뮤\n 남/녀 화장실 구분\n 장애인 편의시설\n"
 
             ),
@@ -705,7 +705,7 @@ class C_Mart_view : AppCompatActivity() {
             Image(
                 R.mipmap.seven_2_1_mart,
                 "노브랜드 강남터미널점", "#정보없음",
-                "고속버스터미널\n 서울 서초구 신반포로 194 지하층 대형1호\n 02-537-8491\n " +
+                "고속터미널\n 서울 서초구 신반포로 194 지하층 대형1호\n 02-537-8491\n " +
                         "매일 10:00 - 22:00 매월 2,4째주 일요일 휴뮤\n 정보없음\n"
             ),
             Image(
@@ -934,7 +934,7 @@ class C_Mart_view : AppCompatActivity() {
             Image(
                 R.mipmap.nine_3_2_mart,
                 "노브랜드 강남터미널점","#정보없음",
-                "고속버스터미널\n 서울 서초구 신반포로 194 지하층 대형1호\n 02-537-8491\n" +
+                "고속터미널\n 서울 서초구 신반포로 194 지하층 대형1호\n 02-537-8491\n" +
                         "매일 10:00 - 22:00 매주 2,4째주 일요일 휴무\n 정보없음"
             ),
             Image(
@@ -1143,7 +1143,7 @@ class C_Mart_view : AppCompatActivity() {
             inputString =="총신대입구(이수)"||inputString =="내방"){
             itemList = itemList7_1
         }
-        else if(inputString =="고속 터미널"
+        else if(inputString =="고속터미널"
             ||inputString =="반포"||inputString =="논현"||inputString =="학동"||
             inputString =="강남구청"||inputString =="청담"||inputString =="뚝섬유원지"||inputString =="건대입구"||inputString =="어린이대공원"
             ||inputString =="군자"||inputString =="중곡"||inputString =="용마산"
