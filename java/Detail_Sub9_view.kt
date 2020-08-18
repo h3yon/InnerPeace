@@ -61,9 +61,9 @@ class Detail_Sub9_view : AppCompatActivity() {
         sub9List.add(("석촌(내외부)_8, 9"))
         sub9List.add(("송파나루(외부)"))
         sub9List.add(("한성백제(외부)"))
-        sub9List.add(("올림픽 공원(내외부)_5, 9"))
+        sub9List.add(("올림픽공원(내외부)_5, 9"))
         sub9List.add(("둔촌오륜(외부)"))
-        sub9List.add(("중앙 보훈병원(외부)"))
+        sub9List.add(("중앙보훈병원(외부)"))
 
 
         val adapter: ArrayAdapter<String> = ArrayAdapter(
