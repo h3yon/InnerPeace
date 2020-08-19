@@ -19,19 +19,19 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import com.project.innerpeace.databinding.ActivityMainBinding
+import com.project.innerpeace.databinding.ActivityMyMemoBinding
 import com.project.innerpeace.databinding.ItemTodoBinding
 
 class MyMemoActivity : AppCompatActivity() {
     val RC_SIGN_IN = 1000
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMyMemoBinding
 
     private val viewModel: MainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMyMemoBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
