@@ -22,50 +22,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".MyMemoActivity"></activity>
+        <activity android:name=".CategoryMainActivity" />
+        <activity android:name=".MyPage" />
         <activity android:name=".Detail_view"></activity>
 
-        <activity android:name=".A_All_view">
+<!--         <activity android:name=".A_All_view">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity> -->
 
-        <activity android:name=".B_Sub_view">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".C_Mart_view">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".D_Food_view">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".E_Cafe_view">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".F_Beer_view">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".B_Sub_view" />
+        <activity android:name=".F_Beer_view" />
+        <activity android:name=".E_Cafe_view" />
+        <activity android:name=".D_Food_view" />
+        <activity android:name=".C_Mart_view" />
 
         
         <activity
@@ -82,7 +55,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        
+        <activity android:name=".IntroPager">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".GpsTracker"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".HomeViewActivity" />
 
         <activity android:name=".GPS_view">
             <intent-filter>
@@ -94,50 +78,22 @@
 
 
       <!--  <activity android:name=".MainActivity" /> -->
-
-        <activity 
-            android:name=".Detail_Sub1_view">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".Detail_Sub2_view">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         
         <activity android:name=".MyPage"/>
-      
         
-
+        <activity android:name=".Detail_Sub2_view" />
+        <activity android:name=".Detail_Sub1_view" />
         <activity android:name=".Detail_Sub3_view"></activity>
-
         <activity android:name=".Detail_Sub4_view"></activity>
-
         <activity android:name=".Detail_Sub5_view"></activity>
-
         <activity android:name=".Detail_Sub6_view"></activity>
-
         <activity android:name=".Detail_Sub7_view"></activity>
-
         <activity android:name=".Detail_Sub8_view"></activity>
-
         <activity android:name=".Detail_Sub9_view"></activity>
 
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="iqnigx1xkk" />
-        
-        
-
-
-
 
 
     </application>
