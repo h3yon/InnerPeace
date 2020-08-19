@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    tools:context=".IntroPager"
+    android:orientation="vertical">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/my_intro_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        />
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dotsColor="#F1F1F1"
+        app:dotsCornerRadius="8dp"
+        app:dotsSize="16dp"
+        app:dotsSpacing="4dp"
+        app:dotsWidthFactor="2.5"
+        app:selectedDotColor="#8BC34A"
+        app:progressMode="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        />
+    <ImageView
+        android:id="@+id/next_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_right_arrow_24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/previous_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_left_arrow_24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <androidx.viewpager2.widget.ViewPager2-->
+<!--        android:id="@+id/view_pager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_above="@+id/button_layout"/>-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/button_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:background="#F4F4F4"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        >-->
+<!--        <Button-->
+<!--            android:id="@+id/btn_skip"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="skip"-->
+<!--            android:textSize="18dp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:background="@null"-->
+<!--            android:layout_margin="10dp"-->
+<!--            />-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_centerInParent="true">-->
+<!--            <TextView-->
+<!--                android:id="@+id/indicator1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:text="-"-->
+<!--                android:textSize="30dp"-->
+<!--                android:textStyle="bold"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/indicator2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="-"-->
+<!--                android:textSize="30dp"-->
+<!--                android:textStyle="bold"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/indicator3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="-"-->
+<!--                android:textSize="30dp"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--        </LinearLayout>-->
+<!--        <Button-->
+<!--            android:id="@+id/btn_next"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="next"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:background="@null"-->
+<!--            android:layout_margin="10dp"/>-->
+
+<!--    </RelativeLayout>-->
+<!--</RelativeLayout>-->
