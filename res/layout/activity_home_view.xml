@@ -41,7 +41,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="65dp"
             android:layout_below="@+id/map_fragment"
             android:id="@+id/space1"/>
 
@@ -50,16 +50,16 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_below="@+id/space1"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
             >
             <Button
                 android:id="@+id/allToilet"
-                android:layout_width="75dp"
-                android:layout_height="80dp"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@mipmap/all_toilet"
-                 />
+                />
             <Space
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"/>
@@ -67,7 +67,7 @@
             <Button
                 android:id="@+id/metroToilet"
                 android:layout_width="70dp"
-                android:layout_height="95dp"
+                android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@mipmap/metro_toilet"
                 />
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"/>
             <Button
                 android:id="@+id/MarketToilet"
-                android:layout_width="75dp"
+                android:layout_width="70dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@mipmap/market_toilet"
@@ -91,8 +91,8 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_below="@+id/icon_group1"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp">
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
             android:id="@+id/space2"
             android:layout_below="@+id/text_group1"
             android:layout_width="match_parent"
-            android:layout_height="20dp"/>
+            android:layout_height="28dp"/>
 
 
         <LinearLayout
@@ -136,12 +136,12 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_below="@+id/space2"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
             >
             <Button
                 android:id="@+id/cafeToilet"
-                android:layout_width="75dp"
+                android:layout_width="70dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@mipmap/cafe_toilet"
@@ -152,7 +152,7 @@
 
             <Button
                 android:id="@+id/restaurantToilet"
-                android:layout_width="75dp"
+                android:layout_width="70dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@mipmap/restaurant_toilet"
@@ -162,7 +162,7 @@
                 android:layout_height="wrap_content"/>
             <Button
                 android:id="@+id/BarToilet"
-                android:layout_width="75dp"
+                android:layout_width="70dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@mipmap/bar_toilet"
@@ -177,8 +177,8 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_below="@+id/icon_group2"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp">
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
 
             <TextView
                 android:layout_width="wrap_content"
