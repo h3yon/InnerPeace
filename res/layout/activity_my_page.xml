@@ -57,9 +57,9 @@
                 android:id="@+id/btn_login_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="38dp"
                 android:text="login"
 
                 />
@@ -68,9 +68,9 @@
                 android:id="@+id/btn_help"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="130dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="38dp"
                 android:text="Help"
                 />
 
@@ -78,9 +78,9 @@
                 android:id="@+id/btn_dev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="210dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="38dp"
                 android:text="Developer"
                />
 
