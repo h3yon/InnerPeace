@@ -46,7 +46,7 @@
         <EditText
             android:id="@+id/station_text"
             android:layout_width="280dp"
-            android:layout_height="33dp"
+            android:layout_height="35dp"
             android:background="@drawable/border_layout"
             android:hint="ex) 왕십리"
             android:padding="7dp"
@@ -58,7 +58,7 @@
             android:id="@+id/search_button"
             android:layout_width="27dp"
             android:layout_height="27dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="8dp"
             android:src="@drawable/ic_search_black_24dp" />
     </LinearLayout>
 
@@ -79,7 +79,6 @@
              android:textColor="#2B2B2B"
              android:textColorHint="#888888"
              android:textSize="15dp" />
-
          <ImageView
              android:id="@+id/gps_button"
              android:layout_width="27dp"
@@ -93,17 +92,18 @@
         android:name="com.naver.maps.map.MapFragment"
         android:layout_width="match_parent"
         android:layout_height="350dp"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="35dp" />
 
     <Button
         android:id="@+id/emergency_button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="47dp"
         android:background="#6E6E6E"
         android:text="긴급"
-        android:textSize="20dp" />
+        android:textSize="23dp" />
 
 
 </LinearLayout>
+
