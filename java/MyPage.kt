@@ -10,10 +10,17 @@ class MyPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_my_page)
 
+        //추가
         btn_login_view.setOnClickListener {
-            startActivity(Intent(this,Login_view::class.java))
+            startActivity(Intent(this,MainActivity::class.java))
             finish()
         }
+        btn_dev.setOnClickListener {
+            startActivity(Intent(this,IntroPager::class.java))
+            finish()
+        }
+        
+        
     }
 }
 
