@@ -202,6 +202,11 @@ class GPS_view : AppCompatActivity(), OnMapReadyCallback {
                 finish()
                 return true
             }
+            
+            //추가
+            R.id.mypage_button->{
+                startActivity(Intent(this,MyPage::class.java))
+            }
         }
         return super.onOptionsItemSelected(item)
     }
