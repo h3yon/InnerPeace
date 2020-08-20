@@ -12,7 +12,7 @@ class MyPage : AppCompatActivity() {
 
         //추가
         btn_login_view.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this,MyMemoActivity::class.java))
             finish()
         }
         btn_dev.setOnClickListener {
